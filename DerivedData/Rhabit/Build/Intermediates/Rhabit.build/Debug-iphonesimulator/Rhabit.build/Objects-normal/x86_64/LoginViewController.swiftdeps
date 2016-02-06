@@ -1,0 +1,487 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LoginViewController"
+provides-nominal:
+- "C6Rhabit19LoginViewController"
+provides-member:
+- ["C6Rhabit19LoginViewController", ""]
+provides-dynamic-lookup:
+- "indexChanged"
+- "viewDidLoad"
+- "loginButton"
+- "didReceiveMemoryWarning"
+- "myRootRef"
+- "usernameField"
+- "registerButton"
+- "passwordField"
+depends-top-level:
+- !private "NSAttributedString"
+- !private "~="
+- !private "print"
+- "UIViewController"
+- "UISegmentedControl"
+- "StringLiteralType"
+- "UITextField"
+- "Firebase"
+- "LoginViewController"
+depends-member:
+- ["PSs9AnyObject", "Firebase"]
+- !private ["PSs9AnyObject", "NSAttributedString"]
+- !private ["PSs9AnyObject", "UITextField"]
+- !private ["PSs9AnyObject", "attributedPlaceholder"]
+- ["PSs9AnyObject", "didReceiveMemoryWarning"]
+- ["PSs9AnyObject", "indexChanged"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "loginButton"]
+- ["PSs9AnyObject", "myRootRef"]
+- ["PSs9AnyObject", "passwordField"]
+- !private ["PSs9AnyObject", "print"]
+- ["PSs9AnyObject", "registerButton"]
+- !private ["PSs9AnyObject", "selectedSegmentIndex"]
+- ["PSs9AnyObject", "usernameField"]
+- ["PSs9AnyObject", "viewDidLoad"]
+- ["PSs9AnyObject", ""]
+- !private ["PSs22BidirectionalIndexType", "Distance"]
+- !private ["PSs22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["PSs21BitwiseOperationsType", "Distance"]
+- !private ["PSs21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["PSs11CVarArgType", "Distance"]
+- ["PSs11CVarArgType", "Firebase"]
+- !private ["PSs11CVarArgType", "IntegerLiteralType"]
+- !private ["PSs11CVarArgType", "NSAttributedString"]
+- !private ["PSs11CVarArgType", "UITextField"]
+- !private ["PSs11CVarArgType", "attributedPlaceholder"]
+- ["PSs11CVarArgType", "didReceiveMemoryWarning"]
+- ["PSs11CVarArgType", "indexChanged"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "loginButton"]
+- ["PSs11CVarArgType", "myRootRef"]
+- ["PSs11CVarArgType", "passwordField"]
+- !private ["PSs11CVarArgType", "print"]
+- ["PSs11CVarArgType", "registerButton"]
+- !private ["PSs11CVarArgType", "selectedSegmentIndex"]
+- ["PSs11CVarArgType", "usernameField"]
+- ["PSs11CVarArgType", "viewDidLoad"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs10Comparable", "Distance"]
+- !private ["PSs10Comparable", "IntegerLiteralType"]
+- !private ["PSs23CustomStringConvertible", "Distance"]
+- ["PSs23CustomStringConvertible", "Firebase"]
+- !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["PSs23CustomStringConvertible", "NSAttributedString"]
+- !private ["PSs23CustomStringConvertible", "UITextField"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "attributedPlaceholder"]
+- ["PSs23CustomStringConvertible", "didReceiveMemoryWarning"]
+- ["PSs23CustomStringConvertible", "indexChanged"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "loginButton"]
+- ["PSs23CustomStringConvertible", "myRootRef"]
+- ["PSs23CustomStringConvertible", "passwordField"]
+- !private ["PSs23CustomStringConvertible", "print"]
+- ["PSs23CustomStringConvertible", "registerButton"]
+- !private ["PSs23CustomStringConvertible", "selectedSegmentIndex"]
+- ["PSs23CustomStringConvertible", "usernameField"]
+- ["PSs23CustomStringConvertible", "viewDidLoad"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["Sd", "deinit"]
+- !private ["PSs9Equatable", "Distance"]
+- ["PSs9Equatable", "Firebase"]
+- !private ["PSs9Equatable", "IntegerLiteralType"]
+- !private ["PSs9Equatable", "NSAttributedString"]
+- !private ["PSs9Equatable", "UITextField"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "attributedPlaceholder"]
+- ["PSs9Equatable", "didReceiveMemoryWarning"]
+- ["PSs9Equatable", "indexChanged"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "loginButton"]
+- ["PSs9Equatable", "myRootRef"]
+- ["PSs9Equatable", "passwordField"]
+- !private ["PSs9Equatable", "print"]
+- ["PSs9Equatable", "registerButton"]
+- !private ["PSs9Equatable", "selectedSegmentIndex"]
+- ["PSs9Equatable", "usernameField"]
+- ["PSs9Equatable", "viewDidLoad"]
+- ["PSs9Equatable", ""]
+- ["CSo6FQuery", "init"]
+- ["CSo8Firebase", "init"]
+- !private ["PSs16ForwardIndexType", "Distance"]
+- !private ["PSs16ForwardIndexType", "IntegerLiteralType"]
+- !private ["PSs8Hashable", "Distance"]
+- ["PSs8Hashable", "Firebase"]
+- !private ["PSs8Hashable", "IntegerLiteralType"]
+- !private ["PSs8Hashable", "NSAttributedString"]
+- !private ["PSs8Hashable", "UITextField"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "attributedPlaceholder"]
+- ["PSs8Hashable", "didReceiveMemoryWarning"]
+- ["PSs8Hashable", "indexChanged"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "loginButton"]
+- ["PSs8Hashable", "myRootRef"]
+- ["PSs8Hashable", "passwordField"]
+- !private ["PSs8Hashable", "print"]
+- ["PSs8Hashable", "registerButton"]
+- !private ["PSs8Hashable", "selectedSegmentIndex"]
+- ["PSs8Hashable", "usernameField"]
+- ["PSs8Hashable", "viewDidLoad"]
+- ["PSs8Hashable", ""]
+- ["SQ", "deinit"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "deinit"]
+- !private ["PSs21IntegerArithmeticType", "Distance"]
+- !private ["PSs21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs25IntegerLiteralConvertible", "Distance"]
+- !private ["PSs25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs11IntegerType", "Distance"]
+- !private ["PSs11IntegerType", "IntegerLiteralType"]
+- ["C6Rhabit19LoginViewController", "Firebase"]
+- !private ["C6Rhabit19LoginViewController", "NSAttributedString"]
+- ["C6Rhabit19LoginViewController", "UISegmentedControl"]
+- ["C6Rhabit19LoginViewController", "UITextField"]
+- ["C6Rhabit19LoginViewController", "deinit"]
+- ["C6Rhabit19LoginViewController", "didReceiveMemoryWarning"]
+- ["C6Rhabit19LoginViewController", "indexChanged"]
+- ["C6Rhabit19LoginViewController", "init"]
+- ["C6Rhabit19LoginViewController", "loginButton"]
+- ["C6Rhabit19LoginViewController", "myRootRef"]
+- ["C6Rhabit19LoginViewController", "passwordField"]
+- !private ["C6Rhabit19LoginViewController", "print"]
+- ["C6Rhabit19LoginViewController", "registerButton"]
+- ["C6Rhabit19LoginViewController", "usernameField"]
+- ["C6Rhabit19LoginViewController", "viewDidLoad"]
+- !private ["PSs14MirrorPathType", "Distance"]
+- !private ["PSs14MirrorPathType", "IntegerLiteralType"]
+- !private ["CSo18NSAttributedString", "init"]
+- ["PSo8NSCoding", "Firebase"]
+- !private ["PSo8NSCoding", "NSAttributedString"]
+- !private ["PSo8NSCoding", "UITextField"]
+- !private ["PSo8NSCoding", "attributedPlaceholder"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- ["PSo8NSCoding", "indexChanged"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "loginButton"]
+- ["PSo8NSCoding", "myRootRef"]
+- ["PSo8NSCoding", "passwordField"]
+- !private ["PSo8NSCoding", "print"]
+- ["PSo8NSCoding", "registerButton"]
+- !private ["PSo8NSCoding", "selectedSegmentIndex"]
+- ["PSo8NSCoding", "usernameField"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- ["PSo26NSExtensionRequestHandling", "Firebase"]
+- !private ["PSo26NSExtensionRequestHandling", "NSAttributedString"]
+- !private ["PSo26NSExtensionRequestHandling", "UITextField"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- ["PSo26NSExtensionRequestHandling", "indexChanged"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "loginButton"]
+- ["PSo26NSExtensionRequestHandling", "myRootRef"]
+- ["PSo26NSExtensionRequestHandling", "passwordField"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- ["PSo26NSExtensionRequestHandling", "registerButton"]
+- ["PSo26NSExtensionRequestHandling", "usernameField"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSNumber", "deinit"]
+- ["CSo8NSObject", "Firebase"]
+- !private ["CSo8NSObject", "NSAttributedString"]
+- ["CSo8NSObject", "UISegmentedControl"]
+- ["CSo8NSObject", "UITextField"]
+- !private ["CSo8NSObject", "attributedPlaceholder"]
+- !private ["CSo8NSObject", "deinit"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- ["CSo8NSObject", "indexChanged"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "loginButton"]
+- ["CSo8NSObject", "myRootRef"]
+- ["CSo8NSObject", "passwordField"]
+- !private ["CSo8NSObject", "print"]
+- ["CSo8NSObject", "registerButton"]
+- !private ["CSo8NSObject", "selectedSegmentIndex"]
+- ["CSo8NSObject", "usernameField"]
+- ["CSo8NSObject", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", "Firebase"]
+- !private ["PSo16NSObjectProtocol", "NSAttributedString"]
+- !private ["PSo16NSObjectProtocol", "UITextField"]
+- !private ["PSo16NSObjectProtocol", "attributedPlaceholder"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- ["PSo16NSObjectProtocol", "indexChanged"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "loginButton"]
+- ["PSo16NSObjectProtocol", "myRootRef"]
+- ["PSo16NSObjectProtocol", "passwordField"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- ["PSo16NSObjectProtocol", "registerButton"]
+- !private ["PSo16NSObjectProtocol", "selectedSegmentIndex"]
+- ["PSo16NSObjectProtocol", "usernameField"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo7NSValue", "deinit"]
+- !private ["PSs21RandomAccessIndexType", "Distance"]
+- !private ["PSs21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["VSs5Range", "deinit"]
+- !private ["PSs17SignedIntegerType", "Distance"]
+- !private ["PSs17SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs16SignedNumberType", "Distance"]
+- !private ["PSs16SignedNumberType", "IntegerLiteralType"]
+- !private ["PSs10Strideable", "Distance"]
+- !private ["PSs10Strideable", "IntegerLiteralType"]
+- !private ["PSo29UIAccessibilityIdentification", "attributedPlaceholder"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "selectedSegmentIndex"]
+- !private ["PSo12UIAppearance", "attributedPlaceholder"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "selectedSegmentIndex"]
+- ["PSo21UIAppearanceContainer", "Firebase"]
+- !private ["PSo21UIAppearanceContainer", "NSAttributedString"]
+- !private ["PSo21UIAppearanceContainer", "UITextField"]
+- !private ["PSo21UIAppearanceContainer", "attributedPlaceholder"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- ["PSo21UIAppearanceContainer", "indexChanged"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "loginButton"]
+- ["PSo21UIAppearanceContainer", "myRootRef"]
+- ["PSo21UIAppearanceContainer", "passwordField"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- ["PSo21UIAppearanceContainer", "registerButton"]
+- !private ["PSo21UIAppearanceContainer", "selectedSegmentIndex"]
+- ["PSo21UIAppearanceContainer", "usernameField"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo18UIContentContainer", "Firebase"]
+- !private ["PSo18UIContentContainer", "NSAttributedString"]
+- !private ["PSo18UIContentContainer", "UITextField"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- ["PSo18UIContentContainer", "indexChanged"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "loginButton"]
+- ["PSo18UIContentContainer", "myRootRef"]
+- ["PSo18UIContentContainer", "passwordField"]
+- !private ["PSo18UIContentContainer", "print"]
+- ["PSo18UIContentContainer", "registerButton"]
+- ["PSo18UIContentContainer", "usernameField"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["CSo9UIControl", "attributedPlaceholder"]
+- !private ["CSo9UIControl", "init"]
+- !private ["CSo9UIControl", "selectedSegmentIndex"]
+- !private ["PSo17UICoordinateSpace", "attributedPlaceholder"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "selectedSegmentIndex"]
+- !private ["PSo13UIDynamicItem", "attributedPlaceholder"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "selectedSegmentIndex"]
+- ["PSo18UIFocusEnvironment", "Firebase"]
+- !private ["PSo18UIFocusEnvironment", "NSAttributedString"]
+- !private ["PSo18UIFocusEnvironment", "UITextField"]
+- !private ["PSo18UIFocusEnvironment", "attributedPlaceholder"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UIFocusEnvironment", "indexChanged"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "loginButton"]
+- ["PSo18UIFocusEnvironment", "myRootRef"]
+- ["PSo18UIFocusEnvironment", "passwordField"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- ["PSo18UIFocusEnvironment", "registerButton"]
+- !private ["PSo18UIFocusEnvironment", "selectedSegmentIndex"]
+- ["PSo18UIFocusEnvironment", "usernameField"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo10UIKeyInput", "attributedPlaceholder"]
+- !private ["PSo10UIKeyInput", "init"]
+- ["CSo11UIResponder", "Firebase"]
+- !private ["CSo11UIResponder", "NSAttributedString"]
+- ["CSo11UIResponder", "UISegmentedControl"]
+- ["CSo11UIResponder", "UITextField"]
+- !private ["CSo11UIResponder", "attributedPlaceholder"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "indexChanged"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "loginButton"]
+- ["CSo11UIResponder", "myRootRef"]
+- ["CSo11UIResponder", "passwordField"]
+- !private ["CSo11UIResponder", "print"]
+- ["CSo11UIResponder", "registerButton"]
+- !private ["CSo11UIResponder", "selectedSegmentIndex"]
+- ["CSo11UIResponder", "usernameField"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["CSo18UISegmentedControl", "selectedSegmentIndex"]
+- ["PSo16UIStateRestoring", "Firebase"]
+- !private ["PSo16UIStateRestoring", "NSAttributedString"]
+- !private ["PSo16UIStateRestoring", "UITextField"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- ["PSo16UIStateRestoring", "indexChanged"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "loginButton"]
+- ["PSo16UIStateRestoring", "myRootRef"]
+- ["PSo16UIStateRestoring", "passwordField"]
+- !private ["PSo16UIStateRestoring", "print"]
+- ["PSo16UIStateRestoring", "registerButton"]
+- ["PSo16UIStateRestoring", "usernameField"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo11UITextField", "attributedPlaceholder"]
+- !private ["CSo11UITextField", "init"]
+- !private ["PSo11UITextInput", "attributedPlaceholder"]
+- !private ["PSo11UITextInput", "init"]
+- !private ["PSo17UITextInputTraits", "attributedPlaceholder"]
+- !private ["PSo17UITextInputTraits", "init"]
+- ["PSo18UITraitEnvironment", "Firebase"]
+- !private ["PSo18UITraitEnvironment", "NSAttributedString"]
+- !private ["PSo18UITraitEnvironment", "UITextField"]
+- !private ["PSo18UITraitEnvironment", "attributedPlaceholder"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UITraitEnvironment", "indexChanged"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "loginButton"]
+- ["PSo18UITraitEnvironment", "myRootRef"]
+- ["PSo18UITraitEnvironment", "passwordField"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- ["PSo18UITraitEnvironment", "registerButton"]
+- !private ["PSo18UITraitEnvironment", "selectedSegmentIndex"]
+- ["PSo18UITraitEnvironment", "usernameField"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "attributedPlaceholder"]
+- !private ["CSo6UIView", "init"]
+- !private ["CSo6UIView", "selectedSegmentIndex"]
+- ["CSo16UIViewController", "Firebase"]
+- !private ["CSo16UIViewController", "NSAttributedString"]
+- ["CSo16UIViewController", "UISegmentedControl"]
+- ["CSo16UIViewController", "UITextField"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "indexChanged"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "loginButton"]
+- ["CSo16UIViewController", "myRootRef"]
+- ["CSo16UIViewController", "passwordField"]
+- !private ["CSo16UIViewController", "print"]
+- ["CSo16UIViewController", "registerButton"]
+- ["CSo16UIViewController", "usernameField"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs14_Incrementable", "Distance"]
+- !private ["PSs14_Incrementable", "IntegerLiteralType"]
+- !private ["PSs22_IntegerArithmeticType", "Distance"]
+- !private ["PSs22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs12_IntegerType", "Distance"]
+- !private ["PSs12_IntegerType", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "Distance"]
+- !private ["PSs21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["VSs26_OptionalNilComparisonType", "deinit"]
+- !private ["PSs22_RandomAccessAmbiguity", "Distance"]
+- !private ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "Distance"]
+- !private ["PSs12_Reflectable", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "attributedPlaceholder"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "selectedSegmentIndex"]
+- !private ["PSs18_SignedIntegerType", "Distance"]
+- !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs11_Strideable", "Distance"]
+- !private ["PSs11_Strideable", "IntegerLiteralType"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs21BitwiseOperationsType"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- "PSs11CVarArgType"
+- !private "PSs10Comparable"
+- "PSs23CustomStringConvertible"
+- !private "Sd"
+- "PSs9Equatable"
+- "CSo6FQuery"
+- "CSo8Firebase"
+- !private "PSs16ForwardIndexType"
+- "PSs8Hashable"
+- "SQ"
+- !private "Si"
+- !private "PSs21IntegerArithmeticType"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
+- "C6Rhabit19LoginViewController"
+- !private "PSs14MirrorPathType"
+- !private "CSo18NSAttributedString"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSNumber"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo7NSValue"
+- !private "PSs21RandomAccessIndexType"
+- !private "VSs5Range"
+- !private "PSs17SignedIntegerType"
+- !private "PSs16SignedNumberType"
+- !private "PSs10Strideable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "CSo9UIControl"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo10UIKeyInput"
+- "CSo11UIResponder"
+- !private "CSo18UISegmentedControl"
+- "PSo16UIStateRestoring"
+- !private "CSo11UITextField"
+- !private "PSo11UITextInput"
+- !private "PSo17UITextInputTraits"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "VSs26_OptionalNilComparisonType"
+- !private "PSs22_RandomAccessAmbiguity"
+- !private "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
+- !private "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/markmoussa/HackathonProjects/Rhabit/DerivedData/Rhabit/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FirebaseServerValue.h"
+- "/Users/markmoussa/HackathonProjects/Rhabit/DerivedData/Rhabit/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FTransactionResult.h"
+- "/Users/markmoussa/HackathonProjects/Rhabit/DerivedData/Rhabit/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FMutableData.h"
+- "/Users/markmoussa/HackathonProjects/Rhabit/DerivedData/Rhabit/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FirebaseApp.h"
+- "/Users/markmoussa/HackathonProjects/Rhabit/DerivedData/Rhabit/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FQuery.h"
+- "/Users/markmoussa/HackathonProjects/Rhabit/DerivedData/Rhabit/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/Firebase.h"
+- "/Users/markmoussa/HackathonProjects/Rhabit/DerivedData/Rhabit/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FEventType.h"
+- "/Users/markmoussa/HackathonProjects/Rhabit/DerivedData/Rhabit/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FDataSnapshot.h"
+- "/Users/markmoussa/HackathonProjects/Rhabit/DerivedData/Rhabit/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FConfig.h"
+- "/Users/markmoussa/HackathonProjects/Rhabit/DerivedData/Rhabit/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FAuthType.h"
+- "/Users/markmoussa/HackathonProjects/Rhabit/DerivedData/Rhabit/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FAuthData.h"
+- "/Users/markmoussa/HackathonProjects/Rhabit/DerivedData/Rhabit/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/Firebase-umbrella.h"
+- "/Users/markmoussa/HackathonProjects/Rhabit/DerivedData/Rhabit/Build/Products/Debug-iphonesimulator/Firebase.framework/Modules/module.modulemap"
+interface-hash: "83c36accfab636f3d38b1e5ba1efd7c9"

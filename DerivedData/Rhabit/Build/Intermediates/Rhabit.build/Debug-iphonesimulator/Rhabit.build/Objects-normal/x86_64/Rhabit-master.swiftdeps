@@ -1,0 +1,8 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "e443ad32bef0b0c8d23c234344fcb6fa"
+build_time: [508107647, 479539000]
+inputs:
+  "/Users/markmoussa/HackathonProjects/Rhabit/Rhabit/AppDelegate.swift": [508101298, 0]
+  "/Users/markmoussa/HackathonProjects/Rhabit/Rhabit/SecondViewController.swift": [508101298, 0]
+  "/Users/markmoussa/HackathonProjects/Rhabit/Rhabit/FirstViewController.swift": [508101649, 0]
+  "/Users/markmoussa/HackathonProjects/Rhabit/Rhabit/LoginViewController.swift": [508107645, 0]

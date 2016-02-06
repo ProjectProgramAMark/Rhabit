@@ -1,0 +1,6 @@
+framework module Pods_RhabitTests {
+  umbrella header "Pods-RhabitTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
