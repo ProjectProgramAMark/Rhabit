@@ -118,9 +118,10 @@ SWIFT_CLASS("_TtC6Rhabit19FirstViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UISegmentedControl;
 @class Firebase;
+@class UISegmentedControl;
 @class UITextField;
+@class UIButton;
 
 SWIFT_CLASS("_TtC6Rhabit19LoginViewController")
 @interface LoginViewController : UIViewController
@@ -128,8 +129,9 @@ SWIFT_CLASS("_TtC6Rhabit19LoginViewController")
 @property (nonatomic, weak) IBOutlet UITextField * __null_unspecified passwordField;
 @property (nonatomic, weak) IBOutlet UISegmentedControl * __null_unspecified loginButton;
 @property (nonatomic, weak) IBOutlet UISegmentedControl * __null_unspecified registerButton;
-- (IBAction)indexChanged:(UISegmentedControl * __nonnull)sender;
+@property (nonatomic, weak) IBOutlet UIButton * __null_unspecified submitButton;
 @property (nonatomic, strong) Firebase * __null_unspecified myRootRef;
+- (IBAction)submit:(UISegmentedControl * __nonnull)sender;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;

@@ -10,48 +10,32 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var loginButton: UISegmentedControl!
     @IBOutlet weak var registerButton: UISegmentedControl!
     @IBOutlet weak var submitButton: UIButton!
-
-    @IBAction func indexChanged(sender : UISegmentedControl) {
-        // This all works fine and it prints out the value of 3 on any click
-        
-        switch sender.selectedSegmentIndex {
-        case 0:
-            print("login segement clicked")
-            @IBAction func submitButton(sender: UIButton) {
-                ref.authUser(self.usernameField.text, password: self.passwordField.text,
-                    withCompletionBlock: { error, authData in
-                        if error != nil {
-                            // There was an error logging in to this account
-                        } else {
-                            // We are now logged in
-                        }
-                })
-            }
-            
-        case 1:
-            var cardNumber = UITextField()
-            
-            cardNumber.attributedPlaceholder = NSAttributedString(string: "Card Number")
-            print("register segment clicked")
-            @IBAction func submitButton(sender: UIButton) {
-                myRootRef.createUser(self.usernameField.text, password: self.passwordField.text,
-                    withValueCompletionBlock: { error, result in
-                        if error != nil {
-                            // There was an error creating the account
-                        } else {
-                            let uid = result["uid"] as? String
-                            println("Successfully created user account with uid: \(uid)")
-                        }
-                })
-            }
-        default:
-            print("Wtf")
-            break;
-        }  //Switch
-    } // indexChanged for the Segmented Control
-    
-    
     var myRootRef = Firebase(url:"https://scorching-torch-468.firebaseio.com/")
+
+    @IBAction func submit(sender: UISegmentedControl) {
+        if(sender.selectedSegmentIndex == 0) {
+            myRootRef.authUser(self.usernameField.text, password: self.passwordField.text,
+                withCompletionBlock: { error, authData in
+                    if error != nil {
+                        // There was an error logging in to this account
+                    } else {
+                        // We are now logged in
+                    }
+            })
+        } else if(sender.selectedSegmentIndex == 1) {
+            myRootRef.createUser(self.usernameField.text, password: self.passwordField.text,
+                withValueCompletionBlock: { error, result in
+                    if error != nil {
+                        // There was an error creating the account
+                    } else {
+                        let uid = result["uid"] as? String
+                        print("Successfully created user account with uid: \(uid)")
+                    }
+            })
+        }
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

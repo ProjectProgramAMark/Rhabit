@@ -6,31 +6,32 @@ provides-nominal:
 provides-member:
 - ["C6Rhabit19LoginViewController", ""]
 provides-dynamic-lookup:
-- "indexChanged"
-- "viewDidLoad"
-- "loginButton"
-- "didReceiveMemoryWarning"
 - "myRootRef"
 - "usernameField"
+- "viewDidLoad"
+- "loginButton"
 - "registerButton"
 - "passwordField"
+- "submit"
+- "submitButton"
+- "didReceiveMemoryWarning"
 depends-top-level:
-- !private "NSAttributedString"
-- !private "~="
 - !private "print"
-- "UIViewController"
 - "UISegmentedControl"
-- "StringLiteralType"
-- "UITextField"
+- "UIViewController"
 - "Firebase"
+- "StringLiteralType"
 - "LoginViewController"
+- "UITextField"
+- !private "String"
+- "UIButton"
+- !private "!="
+- !private "=="
 depends-member:
 - ["PSs9AnyObject", "Firebase"]
-- !private ["PSs9AnyObject", "NSAttributedString"]
-- !private ["PSs9AnyObject", "UITextField"]
-- !private ["PSs9AnyObject", "attributedPlaceholder"]
+- !private ["PSs9AnyObject", "authUser"]
+- !private ["PSs9AnyObject", "createUser"]
 - ["PSs9AnyObject", "didReceiveMemoryWarning"]
-- ["PSs9AnyObject", "indexChanged"]
 - ["PSs9AnyObject", "init"]
 - ["PSs9AnyObject", "loginButton"]
 - ["PSs9AnyObject", "myRootRef"]
@@ -38,24 +39,23 @@ depends-member:
 - !private ["PSs9AnyObject", "print"]
 - ["PSs9AnyObject", "registerButton"]
 - !private ["PSs9AnyObject", "selectedSegmentIndex"]
+- ["PSs9AnyObject", "submit"]
+- ["PSs9AnyObject", "submitButton"]
+- !private ["PSs9AnyObject", "text"]
 - ["PSs9AnyObject", "usernameField"]
 - ["PSs9AnyObject", "viewDidLoad"]
 - ["PSs9AnyObject", ""]
-- !private ["PSs22BidirectionalIndexType", "Distance"]
 - !private ["PSs22BidirectionalIndexType", "IntegerLiteralType"]
-- !private ["PSs21BitwiseOperationsType", "Distance"]
 - !private ["PSs21BitwiseOperationsType", "IntegerLiteralType"]
 - !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
 - !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
 - !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
-- !private ["PSs11CVarArgType", "Distance"]
 - ["PSs11CVarArgType", "Firebase"]
 - !private ["PSs11CVarArgType", "IntegerLiteralType"]
-- !private ["PSs11CVarArgType", "NSAttributedString"]
-- !private ["PSs11CVarArgType", "UITextField"]
-- !private ["PSs11CVarArgType", "attributedPlaceholder"]
+- !private ["PSs11CVarArgType", "authUser"]
+- !private ["PSs11CVarArgType", "createUser"]
 - ["PSs11CVarArgType", "didReceiveMemoryWarning"]
-- ["PSs11CVarArgType", "indexChanged"]
 - ["PSs11CVarArgType", "init"]
 - ["PSs11CVarArgType", "loginButton"]
 - ["PSs11CVarArgType", "myRootRef"]
@@ -63,20 +63,38 @@ depends-member:
 - !private ["PSs11CVarArgType", "print"]
 - ["PSs11CVarArgType", "registerButton"]
 - !private ["PSs11CVarArgType", "selectedSegmentIndex"]
+- ["PSs11CVarArgType", "submit"]
+- ["PSs11CVarArgType", "submitButton"]
+- !private ["PSs11CVarArgType", "text"]
 - ["PSs11CVarArgType", "usernameField"]
 - ["PSs11CVarArgType", "viewDidLoad"]
 - ["PSs11CVarArgType", ""]
+- !private ["VSs9Character", "deinit"]
+- !private ["PSs14CollectionType", "Generator"]
+- !private ["PSs14CollectionType", "Index"]
+- !private ["PSs14CollectionType", "SubSequence"]
+- !private ["PSs14CollectionType", "_Element"]
+- !private ["PSs14CollectionType", "subscript"]
 - !private ["PSs10Comparable", "Distance"]
 - !private ["PSs10Comparable", "IntegerLiteralType"]
-- !private ["PSs23CustomStringConvertible", "Distance"]
+- !private ["PSs10Comparable", "_DisabledRangeIndex"]
+- !private ["PSs10Comparable", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "Generator"]
+- !private ["PSs28CustomDebugStringConvertible", "Index"]
+- !private ["PSs28CustomDebugStringConvertible", "SubSequence"]
+- !private ["PSs28CustomDebugStringConvertible", "_Element"]
+- !private ["PSs28CustomDebugStringConvertible", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "subscript"]
 - ["PSs23CustomStringConvertible", "Firebase"]
+- !private ["PSs23CustomStringConvertible", "Generator"]
+- !private ["PSs23CustomStringConvertible", "Index"]
 - !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
-- !private ["PSs23CustomStringConvertible", "NSAttributedString"]
-- !private ["PSs23CustomStringConvertible", "UITextField"]
+- !private ["PSs23CustomStringConvertible", "SubSequence"]
+- !private ["PSs23CustomStringConvertible", "_Element"]
 - !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
-- !private ["PSs23CustomStringConvertible", "attributedPlaceholder"]
+- !private ["PSs23CustomStringConvertible", "authUser"]
+- !private ["PSs23CustomStringConvertible", "createUser"]
 - ["PSs23CustomStringConvertible", "didReceiveMemoryWarning"]
-- ["PSs23CustomStringConvertible", "indexChanged"]
 - ["PSs23CustomStringConvertible", "init"]
 - ["PSs23CustomStringConvertible", "loginButton"]
 - ["PSs23CustomStringConvertible", "myRootRef"]
@@ -84,19 +102,36 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "print"]
 - ["PSs23CustomStringConvertible", "registerButton"]
 - !private ["PSs23CustomStringConvertible", "selectedSegmentIndex"]
+- ["PSs23CustomStringConvertible", "submit"]
+- ["PSs23CustomStringConvertible", "submitButton"]
+- !private ["PSs23CustomStringConvertible", "subscript"]
+- !private ["PSs23CustomStringConvertible", "text"]
 - ["PSs23CustomStringConvertible", "usernameField"]
 - ["PSs23CustomStringConvertible", "viewDidLoad"]
 - ["PSs23CustomStringConvertible", ""]
+- !private ["VSs10Dictionary", "Generator"]
+- !private ["VSs10Dictionary", "Index"]
+- !private ["VSs10Dictionary", "SubSequence"]
+- !private ["VSs10Dictionary", "_Element"]
+- !private ["VSs10Dictionary", "deinit"]
+- !private ["VSs10Dictionary", "subscript"]
+- !private ["VSs15DictionaryIndex", "Distance"]
+- !private ["VSs15DictionaryIndex", "_DisabledRangeIndex"]
+- !private ["VSs15DictionaryIndex", "deinit"]
+- !private ["PSs28DictionaryLiteralConvertible", "Generator"]
+- !private ["PSs28DictionaryLiteralConvertible", "Index"]
+- !private ["PSs28DictionaryLiteralConvertible", "SubSequence"]
+- !private ["PSs28DictionaryLiteralConvertible", "_Element"]
+- !private ["PSs28DictionaryLiteralConvertible", "subscript"]
 - !private ["Sd", "deinit"]
 - !private ["PSs9Equatable", "Distance"]
 - ["PSs9Equatable", "Firebase"]
 - !private ["PSs9Equatable", "IntegerLiteralType"]
-- !private ["PSs9Equatable", "NSAttributedString"]
-- !private ["PSs9Equatable", "UITextField"]
+- !private ["PSs9Equatable", "_DisabledRangeIndex"]
 - !private ["PSs9Equatable", "_getBuiltinLogicValue"]
-- !private ["PSs9Equatable", "attributedPlaceholder"]
+- !private ["PSs9Equatable", "authUser"]
+- !private ["PSs9Equatable", "createUser"]
 - ["PSs9Equatable", "didReceiveMemoryWarning"]
-- ["PSs9Equatable", "indexChanged"]
 - ["PSs9Equatable", "init"]
 - ["PSs9Equatable", "loginButton"]
 - ["PSs9Equatable", "myRootRef"]
@@ -104,22 +139,30 @@ depends-member:
 - !private ["PSs9Equatable", "print"]
 - ["PSs9Equatable", "registerButton"]
 - !private ["PSs9Equatable", "selectedSegmentIndex"]
+- ["PSs9Equatable", "submit"]
+- ["PSs9Equatable", "submitButton"]
+- !private ["PSs9Equatable", "text"]
 - ["PSs9Equatable", "usernameField"]
 - ["PSs9Equatable", "viewDidLoad"]
 - ["PSs9Equatable", ""]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["CSo6FQuery", "authUser"]
+- !private ["CSo6FQuery", "createUser"]
 - ["CSo6FQuery", "init"]
+- !private ["CSo8Firebase", "authUser"]
+- !private ["CSo8Firebase", "createUser"]
 - ["CSo8Firebase", "init"]
+- !private ["Sf", "deinit"]
 - !private ["PSs16ForwardIndexType", "Distance"]
 - !private ["PSs16ForwardIndexType", "IntegerLiteralType"]
-- !private ["PSs8Hashable", "Distance"]
+- !private ["PSs16ForwardIndexType", "_DisabledRangeIndex"]
+- !private ["PSs13GeneratorType", "Element"]
 - ["PSs8Hashable", "Firebase"]
 - !private ["PSs8Hashable", "IntegerLiteralType"]
-- !private ["PSs8Hashable", "NSAttributedString"]
-- !private ["PSs8Hashable", "UITextField"]
 - !private ["PSs8Hashable", "_getBuiltinLogicValue"]
-- !private ["PSs8Hashable", "attributedPlaceholder"]
+- !private ["PSs8Hashable", "authUser"]
+- !private ["PSs8Hashable", "createUser"]
 - ["PSs8Hashable", "didReceiveMemoryWarning"]
-- ["PSs8Hashable", "indexChanged"]
 - ["PSs8Hashable", "init"]
 - ["PSs8Hashable", "loginButton"]
 - ["PSs8Hashable", "myRootRef"]
@@ -127,43 +170,49 @@ depends-member:
 - !private ["PSs8Hashable", "print"]
 - ["PSs8Hashable", "registerButton"]
 - !private ["PSs8Hashable", "selectedSegmentIndex"]
+- ["PSs8Hashable", "submit"]
+- ["PSs8Hashable", "submitButton"]
+- !private ["PSs8Hashable", "text"]
 - ["PSs8Hashable", "usernameField"]
 - ["PSs8Hashable", "viewDidLoad"]
 - ["PSs8Hashable", ""]
 - ["SQ", "deinit"]
-- !private ["Si", "Distance"]
+- !private ["PSs9Indexable", "Generator"]
+- !private ["PSs9Indexable", "Index"]
+- !private ["PSs9Indexable", "SubSequence"]
+- !private ["PSs9Indexable", "_Element"]
+- !private ["PSs9Indexable", "subscript"]
+- !private ["VSs17IndexingGenerator", "Element"]
 - !private ["Si", "IntegerLiteralType"]
 - !private ["Si", "deinit"]
-- !private ["PSs21IntegerArithmeticType", "Distance"]
+- !private ["VSs5Int16", "deinit"]
+- !private ["VSs5Int32", "deinit"]
+- !private ["VSs5Int64", "deinit"]
+- !private ["VSs4Int8", "deinit"]
 - !private ["PSs21IntegerArithmeticType", "IntegerLiteralType"]
-- !private ["PSs25IntegerLiteralConvertible", "Distance"]
 - !private ["PSs25IntegerLiteralConvertible", "IntegerLiteralType"]
-- !private ["PSs11IntegerType", "Distance"]
 - !private ["PSs11IntegerType", "IntegerLiteralType"]
 - ["C6Rhabit19LoginViewController", "Firebase"]
-- !private ["C6Rhabit19LoginViewController", "NSAttributedString"]
+- !private ["C6Rhabit19LoginViewController", "String"]
+- ["C6Rhabit19LoginViewController", "UIButton"]
 - ["C6Rhabit19LoginViewController", "UISegmentedControl"]
 - ["C6Rhabit19LoginViewController", "UITextField"]
 - ["C6Rhabit19LoginViewController", "deinit"]
 - ["C6Rhabit19LoginViewController", "didReceiveMemoryWarning"]
-- ["C6Rhabit19LoginViewController", "indexChanged"]
 - ["C6Rhabit19LoginViewController", "init"]
 - ["C6Rhabit19LoginViewController", "loginButton"]
 - ["C6Rhabit19LoginViewController", "myRootRef"]
 - ["C6Rhabit19LoginViewController", "passwordField"]
 - !private ["C6Rhabit19LoginViewController", "print"]
 - ["C6Rhabit19LoginViewController", "registerButton"]
+- ["C6Rhabit19LoginViewController", "submit"]
+- ["C6Rhabit19LoginViewController", "submitButton"]
 - ["C6Rhabit19LoginViewController", "usernameField"]
 - ["C6Rhabit19LoginViewController", "viewDidLoad"]
-- !private ["PSs14MirrorPathType", "Distance"]
 - !private ["PSs14MirrorPathType", "IntegerLiteralType"]
-- !private ["CSo18NSAttributedString", "init"]
+- !private ["PSs14MirrorPathType", "init"]
 - ["PSo8NSCoding", "Firebase"]
-- !private ["PSo8NSCoding", "NSAttributedString"]
-- !private ["PSo8NSCoding", "UITextField"]
-- !private ["PSo8NSCoding", "attributedPlaceholder"]
 - ["PSo8NSCoding", "didReceiveMemoryWarning"]
-- ["PSo8NSCoding", "indexChanged"]
 - ["PSo8NSCoding", "init"]
 - ["PSo8NSCoding", "loginButton"]
 - ["PSo8NSCoding", "myRootRef"]
@@ -171,34 +220,37 @@ depends-member:
 - !private ["PSo8NSCoding", "print"]
 - ["PSo8NSCoding", "registerButton"]
 - !private ["PSo8NSCoding", "selectedSegmentIndex"]
+- ["PSo8NSCoding", "submit"]
+- ["PSo8NSCoding", "submitButton"]
+- !private ["PSo8NSCoding", "text"]
 - ["PSo8NSCoding", "usernameField"]
 - ["PSo8NSCoding", "viewDidLoad"]
 - ["PSo8NSCoding", ""]
 - !private ["PSo9NSCopying", "init"]
+- !private ["CSo7NSError", "deinit"]
 - ["PSo26NSExtensionRequestHandling", "Firebase"]
-- !private ["PSo26NSExtensionRequestHandling", "NSAttributedString"]
-- !private ["PSo26NSExtensionRequestHandling", "UITextField"]
 - ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
-- ["PSo26NSExtensionRequestHandling", "indexChanged"]
 - ["PSo26NSExtensionRequestHandling", "init"]
 - ["PSo26NSExtensionRequestHandling", "loginButton"]
 - ["PSo26NSExtensionRequestHandling", "myRootRef"]
 - ["PSo26NSExtensionRequestHandling", "passwordField"]
 - !private ["PSo26NSExtensionRequestHandling", "print"]
 - ["PSo26NSExtensionRequestHandling", "registerButton"]
+- ["PSo26NSExtensionRequestHandling", "submit"]
+- ["PSo26NSExtensionRequestHandling", "submitButton"]
 - ["PSo26NSExtensionRequestHandling", "usernameField"]
 - ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
 - ["PSo26NSExtensionRequestHandling", ""]
 - !private ["PSo16NSMutableCopying", "init"]
-- !private ["CSo8NSNumber", "deinit"]
 - ["CSo8NSObject", "Firebase"]
-- !private ["CSo8NSObject", "NSAttributedString"]
+- !private ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UIButton"]
 - ["CSo8NSObject", "UISegmentedControl"]
 - ["CSo8NSObject", "UITextField"]
-- !private ["CSo8NSObject", "attributedPlaceholder"]
+- !private ["CSo8NSObject", "authUser"]
+- !private ["CSo8NSObject", "createUser"]
 - !private ["CSo8NSObject", "deinit"]
 - ["CSo8NSObject", "didReceiveMemoryWarning"]
-- ["CSo8NSObject", "indexChanged"]
 - ["CSo8NSObject", "init"]
 - ["CSo8NSObject", "loginButton"]
 - ["CSo8NSObject", "myRootRef"]
@@ -206,14 +258,15 @@ depends-member:
 - !private ["CSo8NSObject", "print"]
 - ["CSo8NSObject", "registerButton"]
 - !private ["CSo8NSObject", "selectedSegmentIndex"]
+- ["CSo8NSObject", "submit"]
+- ["CSo8NSObject", "submitButton"]
+- !private ["CSo8NSObject", "text"]
 - ["CSo8NSObject", "usernameField"]
 - ["CSo8NSObject", "viewDidLoad"]
 - ["PSo16NSObjectProtocol", "Firebase"]
-- !private ["PSo16NSObjectProtocol", "NSAttributedString"]
-- !private ["PSo16NSObjectProtocol", "UITextField"]
-- !private ["PSo16NSObjectProtocol", "attributedPlaceholder"]
+- !private ["PSo16NSObjectProtocol", "authUser"]
+- !private ["PSo16NSObjectProtocol", "createUser"]
 - ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
-- ["PSo16NSObjectProtocol", "indexChanged"]
 - ["PSo16NSObjectProtocol", "init"]
 - ["PSo16NSObjectProtocol", "loginButton"]
 - ["PSo16NSObjectProtocol", "myRootRef"]
@@ -221,32 +274,42 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "print"]
 - ["PSo16NSObjectProtocol", "registerButton"]
 - !private ["PSo16NSObjectProtocol", "selectedSegmentIndex"]
+- ["PSo16NSObjectProtocol", "submit"]
+- ["PSo16NSObjectProtocol", "submitButton"]
+- !private ["PSo16NSObjectProtocol", "text"]
 - ["PSo16NSObjectProtocol", "usernameField"]
 - ["PSo16NSObjectProtocol", "viewDidLoad"]
 - ["PSo16NSObjectProtocol", ""]
 - !private ["PSo14NSSecureCoding", "init"]
-- !private ["CSo7NSValue", "deinit"]
-- !private ["PSs21RandomAccessIndexType", "Distance"]
+- !private ["CSo8NSString", "deinit"]
+- !private ["CSo8NSString", "init"]
+- !private ["Sq", "deinit"]
+- !private ["PSs16OutputStreamType", "init"]
 - !private ["PSs21RandomAccessIndexType", "IntegerLiteralType"]
 - !private ["VSs5Range", "deinit"]
-- !private ["PSs17SignedIntegerType", "Distance"]
+- !private ["PSs12SequenceType", "Element"]
+- !private ["PSs12SequenceType", "Generator"]
+- !private ["PSs12SequenceType", "Index"]
+- !private ["PSs12SequenceType", "SubSequence"]
+- !private ["PSs12SequenceType", "_Element"]
+- !private ["PSs12SequenceType", "subscript"]
 - !private ["PSs17SignedIntegerType", "IntegerLiteralType"]
-- !private ["PSs16SignedNumberType", "Distance"]
 - !private ["PSs16SignedNumberType", "IntegerLiteralType"]
-- !private ["PSs10Strideable", "Distance"]
+- !private ["VSs5Slice", "Generator"]
+- !private ["VSs5Slice", "Index"]
+- !private ["VSs5Slice", "SubSequence"]
+- !private ["VSs5Slice", "_Element"]
+- !private ["PSs10Streamable", "init"]
 - !private ["PSs10Strideable", "IntegerLiteralType"]
-- !private ["PSo29UIAccessibilityIdentification", "attributedPlaceholder"]
-- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["SS", "init"]
+- !private ["PSs30StringInterpolationConvertible", "init"]
+- !private ["PSs24StringLiteralConvertible", "init"]
 - !private ["PSo29UIAccessibilityIdentification", "selectedSegmentIndex"]
-- !private ["PSo12UIAppearance", "attributedPlaceholder"]
-- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
 - !private ["PSo12UIAppearance", "selectedSegmentIndex"]
+- !private ["PSo12UIAppearance", "text"]
 - ["PSo21UIAppearanceContainer", "Firebase"]
-- !private ["PSo21UIAppearanceContainer", "NSAttributedString"]
-- !private ["PSo21UIAppearanceContainer", "UITextField"]
-- !private ["PSo21UIAppearanceContainer", "attributedPlaceholder"]
 - ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
-- ["PSo21UIAppearanceContainer", "indexChanged"]
 - ["PSo21UIAppearanceContainer", "init"]
 - ["PSo21UIAppearanceContainer", "loginButton"]
 - ["PSo21UIAppearanceContainer", "myRootRef"]
@@ -254,38 +317,33 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "print"]
 - ["PSo21UIAppearanceContainer", "registerButton"]
 - !private ["PSo21UIAppearanceContainer", "selectedSegmentIndex"]
+- ["PSo21UIAppearanceContainer", "submit"]
+- ["PSo21UIAppearanceContainer", "submitButton"]
+- !private ["PSo21UIAppearanceContainer", "text"]
 - ["PSo21UIAppearanceContainer", "usernameField"]
 - ["PSo21UIAppearanceContainer", "viewDidLoad"]
 - ["PSo21UIAppearanceContainer", ""]
 - ["PSo18UIContentContainer", "Firebase"]
-- !private ["PSo18UIContentContainer", "NSAttributedString"]
-- !private ["PSo18UIContentContainer", "UITextField"]
 - ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
-- ["PSo18UIContentContainer", "indexChanged"]
 - ["PSo18UIContentContainer", "init"]
 - ["PSo18UIContentContainer", "loginButton"]
 - ["PSo18UIContentContainer", "myRootRef"]
 - ["PSo18UIContentContainer", "passwordField"]
 - !private ["PSo18UIContentContainer", "print"]
 - ["PSo18UIContentContainer", "registerButton"]
+- ["PSo18UIContentContainer", "submit"]
+- ["PSo18UIContentContainer", "submitButton"]
 - ["PSo18UIContentContainer", "usernameField"]
 - ["PSo18UIContentContainer", "viewDidLoad"]
 - ["PSo18UIContentContainer", ""]
-- !private ["CSo9UIControl", "attributedPlaceholder"]
-- !private ["CSo9UIControl", "init"]
 - !private ["CSo9UIControl", "selectedSegmentIndex"]
-- !private ["PSo17UICoordinateSpace", "attributedPlaceholder"]
-- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["CSo9UIControl", "text"]
 - !private ["PSo17UICoordinateSpace", "selectedSegmentIndex"]
-- !private ["PSo13UIDynamicItem", "attributedPlaceholder"]
-- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo17UICoordinateSpace", "text"]
 - !private ["PSo13UIDynamicItem", "selectedSegmentIndex"]
+- !private ["PSo13UIDynamicItem", "text"]
 - ["PSo18UIFocusEnvironment", "Firebase"]
-- !private ["PSo18UIFocusEnvironment", "NSAttributedString"]
-- !private ["PSo18UIFocusEnvironment", "UITextField"]
-- !private ["PSo18UIFocusEnvironment", "attributedPlaceholder"]
 - ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
-- ["PSo18UIFocusEnvironment", "indexChanged"]
 - ["PSo18UIFocusEnvironment", "init"]
 - ["PSo18UIFocusEnvironment", "loginButton"]
 - ["PSo18UIFocusEnvironment", "myRootRef"]
@@ -293,18 +351,19 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "print"]
 - ["PSo18UIFocusEnvironment", "registerButton"]
 - !private ["PSo18UIFocusEnvironment", "selectedSegmentIndex"]
+- ["PSo18UIFocusEnvironment", "submit"]
+- ["PSo18UIFocusEnvironment", "submitButton"]
+- !private ["PSo18UIFocusEnvironment", "text"]
 - ["PSo18UIFocusEnvironment", "usernameField"]
 - ["PSo18UIFocusEnvironment", "viewDidLoad"]
 - ["PSo18UIFocusEnvironment", ""]
-- !private ["PSo10UIKeyInput", "attributedPlaceholder"]
-- !private ["PSo10UIKeyInput", "init"]
+- !private ["PSo10UIKeyInput", "text"]
 - ["CSo11UIResponder", "Firebase"]
-- !private ["CSo11UIResponder", "NSAttributedString"]
+- !private ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "UIButton"]
 - ["CSo11UIResponder", "UISegmentedControl"]
 - ["CSo11UIResponder", "UITextField"]
-- !private ["CSo11UIResponder", "attributedPlaceholder"]
 - ["CSo11UIResponder", "didReceiveMemoryWarning"]
-- ["CSo11UIResponder", "indexChanged"]
 - ["CSo11UIResponder", "init"]
 - ["CSo11UIResponder", "loginButton"]
 - ["CSo11UIResponder", "myRootRef"]
@@ -312,35 +371,30 @@ depends-member:
 - !private ["CSo11UIResponder", "print"]
 - ["CSo11UIResponder", "registerButton"]
 - !private ["CSo11UIResponder", "selectedSegmentIndex"]
+- ["CSo11UIResponder", "submit"]
+- ["CSo11UIResponder", "submitButton"]
+- !private ["CSo11UIResponder", "text"]
 - ["CSo11UIResponder", "usernameField"]
 - ["CSo11UIResponder", "viewDidLoad"]
 - !private ["CSo18UISegmentedControl", "selectedSegmentIndex"]
 - ["PSo16UIStateRestoring", "Firebase"]
-- !private ["PSo16UIStateRestoring", "NSAttributedString"]
-- !private ["PSo16UIStateRestoring", "UITextField"]
 - ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
-- ["PSo16UIStateRestoring", "indexChanged"]
 - ["PSo16UIStateRestoring", "init"]
 - ["PSo16UIStateRestoring", "loginButton"]
 - ["PSo16UIStateRestoring", "myRootRef"]
 - ["PSo16UIStateRestoring", "passwordField"]
 - !private ["PSo16UIStateRestoring", "print"]
 - ["PSo16UIStateRestoring", "registerButton"]
+- ["PSo16UIStateRestoring", "submit"]
+- ["PSo16UIStateRestoring", "submitButton"]
 - ["PSo16UIStateRestoring", "usernameField"]
 - ["PSo16UIStateRestoring", "viewDidLoad"]
 - ["PSo16UIStateRestoring", ""]
-- !private ["CSo11UITextField", "attributedPlaceholder"]
-- !private ["CSo11UITextField", "init"]
-- !private ["PSo11UITextInput", "attributedPlaceholder"]
-- !private ["PSo11UITextInput", "init"]
-- !private ["PSo17UITextInputTraits", "attributedPlaceholder"]
-- !private ["PSo17UITextInputTraits", "init"]
+- !private ["CSo11UITextField", "text"]
+- !private ["PSo11UITextInput", "text"]
+- !private ["PSo17UITextInputTraits", "text"]
 - ["PSo18UITraitEnvironment", "Firebase"]
-- !private ["PSo18UITraitEnvironment", "NSAttributedString"]
-- !private ["PSo18UITraitEnvironment", "UITextField"]
-- !private ["PSo18UITraitEnvironment", "attributedPlaceholder"]
 - ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
-- ["PSo18UITraitEnvironment", "indexChanged"]
 - ["PSo18UITraitEnvironment", "init"]
 - ["PSo18UITraitEnvironment", "loginButton"]
 - ["PSo18UITraitEnvironment", "myRootRef"]
@@ -348,51 +402,71 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "print"]
 - ["PSo18UITraitEnvironment", "registerButton"]
 - !private ["PSo18UITraitEnvironment", "selectedSegmentIndex"]
+- ["PSo18UITraitEnvironment", "submit"]
+- ["PSo18UITraitEnvironment", "submitButton"]
+- !private ["PSo18UITraitEnvironment", "text"]
 - ["PSo18UITraitEnvironment", "usernameField"]
 - ["PSo18UITraitEnvironment", "viewDidLoad"]
 - ["PSo18UITraitEnvironment", ""]
-- !private ["CSo6UIView", "attributedPlaceholder"]
-- !private ["CSo6UIView", "init"]
 - !private ["CSo6UIView", "selectedSegmentIndex"]
+- !private ["CSo6UIView", "text"]
 - ["CSo16UIViewController", "Firebase"]
-- !private ["CSo16UIViewController", "NSAttributedString"]
+- !private ["CSo16UIViewController", "String"]
+- ["CSo16UIViewController", "UIButton"]
 - ["CSo16UIViewController", "UISegmentedControl"]
 - ["CSo16UIViewController", "UITextField"]
 - ["CSo16UIViewController", "didReceiveMemoryWarning"]
-- ["CSo16UIViewController", "indexChanged"]
 - ["CSo16UIViewController", "init"]
 - ["CSo16UIViewController", "loginButton"]
 - ["CSo16UIViewController", "myRootRef"]
 - ["CSo16UIViewController", "passwordField"]
 - !private ["CSo16UIViewController", "print"]
 - ["CSo16UIViewController", "registerButton"]
+- ["CSo16UIViewController", "submit"]
+- ["CSo16UIViewController", "submitButton"]
 - ["CSo16UIViewController", "usernameField"]
 - ["CSo16UIViewController", "viewDidLoad"]
 - ["CSo16UIViewController", ""]
+- !private ["Su", "deinit"]
+- !private ["VSs6UInt16", "deinit"]
+- !private ["VSs6UInt32", "deinit"]
+- !private ["VSs6UInt64", "deinit"]
+- !private ["VSs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
 - !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
-- !private ["PSs33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
 - !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "init"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs16_CocoaStringType", "init"]
 - !private ["PSs14_Incrementable", "Distance"]
 - !private ["PSs14_Incrementable", "IntegerLiteralType"]
-- !private ["PSs22_IntegerArithmeticType", "Distance"]
+- !private ["PSs14_Incrementable", "_DisabledRangeIndex"]
 - !private ["PSs22_IntegerArithmeticType", "IntegerLiteralType"]
-- !private ["PSs12_IntegerType", "Distance"]
 - !private ["PSs12_IntegerType", "IntegerLiteralType"]
-- !private ["PSs21_ObjectiveCBridgeable", "Distance"]
+- !private ["PSs21_ObjectiveCBridgeable", "Generator"]
+- !private ["PSs21_ObjectiveCBridgeable", "Index"]
 - !private ["PSs21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["PSs21_ObjectiveCBridgeable", "_Element"]
 - !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "subscript"]
 - !private ["VSs26_OptionalNilComparisonType", "deinit"]
-- !private ["PSs22_RandomAccessAmbiguity", "Distance"]
 - !private ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
-- !private ["PSs12_Reflectable", "Distance"]
+- !private ["PSs12_Reflectable", "Generator"]
+- !private ["PSs12_Reflectable", "Index"]
 - !private ["PSs12_Reflectable", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "SubSequence"]
+- !private ["PSs12_Reflectable", "_Element"]
 - !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
-- !private ["PSs12_Reflectable", "attributedPlaceholder"]
 - !private ["PSs12_Reflectable", "init"]
 - !private ["PSs12_Reflectable", "selectedSegmentIndex"]
-- !private ["PSs18_SignedIntegerType", "Distance"]
+- !private ["PSs12_Reflectable", "subscript"]
+- !private ["PSs12_Reflectable", "text"]
 - !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
-- !private ["PSs11_Strideable", "Distance"]
 - !private ["PSs11_Strideable", "IntegerLiteralType"]
 depends-nominal:
 - "PSs9AnyObject"
@@ -402,36 +476,58 @@ depends-nominal:
 - !private "PSs25BooleanLiteralConvertible"
 - !private "PSs11BooleanType"
 - "PSs11CVarArgType"
+- !private "VSs9Character"
+- !private "PSs14CollectionType"
 - !private "PSs10Comparable"
+- !private "PSs28CustomDebugStringConvertible"
 - "PSs23CustomStringConvertible"
+- !private "VSs10Dictionary"
+- !private "VSs15DictionaryIndex"
+- !private "PSs28DictionaryLiteralConvertible"
 - !private "Sd"
 - "PSs9Equatable"
+- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
 - "CSo6FQuery"
 - "CSo8Firebase"
+- !private "Sf"
 - !private "PSs16ForwardIndexType"
+- !private "PSs13GeneratorType"
 - "PSs8Hashable"
 - "SQ"
+- !private "PSs9Indexable"
+- !private "VSs17IndexingGenerator"
 - !private "Si"
+- !private "VSs5Int16"
+- !private "VSs5Int32"
+- !private "VSs5Int64"
+- !private "VSs4Int8"
 - !private "PSs21IntegerArithmeticType"
 - !private "PSs25IntegerLiteralConvertible"
 - !private "PSs11IntegerType"
 - "C6Rhabit19LoginViewController"
 - !private "PSs14MirrorPathType"
-- !private "CSo18NSAttributedString"
 - "PSo8NSCoding"
 - !private "PSo9NSCopying"
+- !private "CSo7NSError"
 - "PSo26NSExtensionRequestHandling"
 - !private "PSo16NSMutableCopying"
-- !private "CSo8NSNumber"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
 - !private "PSo14NSSecureCoding"
-- !private "CSo7NSValue"
+- !private "CSo8NSString"
+- !private "Sq"
+- !private "PSs16OutputStreamType"
 - !private "PSs21RandomAccessIndexType"
 - !private "VSs5Range"
+- !private "PSs12SequenceType"
 - !private "PSs17SignedIntegerType"
 - !private "PSs16SignedNumberType"
+- !private "VSs5Slice"
+- !private "PSs10Streamable"
 - !private "PSs10Strideable"
+- !private "SS"
+- !private "PSs30StringInterpolationConvertible"
+- !private "PSs24StringLiteralConvertible"
 - !private "PSo29UIAccessibilityIdentification"
 - !private "PSo12UIAppearance"
 - "PSo21UIAppearanceContainer"
@@ -450,8 +546,20 @@ depends-nominal:
 - "PSo18UITraitEnvironment"
 - !private "CSo6UIView"
 - "CSo16UIViewController"
+- !private "Su"
+- !private "VSs6UInt16"
+- !private "VSs6UInt32"
+- !private "VSs6UInt64"
+- !private "VSs5UInt8"
+- !private "Sc"
+- !private "PSs31UnicodeScalarLiteralConvertible"
 - !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
 - !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs32_BuiltinStringLiteralConvertible"
+- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
+- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "PSs16_CocoaStringType"
 - !private "PSs14_Incrementable"
 - !private "PSs22_IntegerArithmeticType"
 - !private "PSs12_IntegerType"
@@ -484,4 +592,4 @@ depends-external:
 - "/Users/markmoussa/HackathonProjects/Rhabit/DerivedData/Rhabit/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FAuthData.h"
 - "/Users/markmoussa/HackathonProjects/Rhabit/DerivedData/Rhabit/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/Firebase-umbrella.h"
 - "/Users/markmoussa/HackathonProjects/Rhabit/DerivedData/Rhabit/Build/Products/Debug-iphonesimulator/Firebase.framework/Modules/module.modulemap"
-interface-hash: "83c36accfab636f3d38b1e5ba1efd7c9"
+interface-hash: "d58cf5d3e22891a0a70520603afe46f5"
