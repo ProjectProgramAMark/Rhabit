@@ -1,0 +1,71 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BarLineScatterCandleBubbleChartDataProvider"
+provides-nominal:
+- "P6Charts43BarLineScatterCandleBubbleChartDataProvider"
+provides-member:
+- ["P6Charts43BarLineScatterCandleBubbleChartDataProvider", ""]
+provides-dynamic-lookup:
+- "maxVisibleValueCount"
+- "getTransformer"
+- "highestVisibleXIndex"
+- "isInverted"
+- "lowestVisibleXIndex"
+depends-top-level:
+- "ChartDataProvider"
+- "ChartYAxis"
+- "Int"
+- "BarLineScatterCandleBubbleChartDataProvider"
+- "Bool"
+- "ChartTransformer"
+depends-member:
+- ["PSs9AnyObject", "AxisDependency"]
+- ["P6Charts43BarLineScatterCandleBubbleChartDataProvider", "Bool"]
+- ["P6Charts43BarLineScatterCandleBubbleChartDataProvider", "ChartTransformer"]
+- ["P6Charts43BarLineScatterCandleBubbleChartDataProvider", "ChartYAxis"]
+- ["P6Charts43BarLineScatterCandleBubbleChartDataProvider", "Int"]
+- ["P6Charts43BarLineScatterCandleBubbleChartDataProvider", "getTransformer"]
+- ["P6Charts43BarLineScatterCandleBubbleChartDataProvider", "highestVisibleXIndex"]
+- ["P6Charts43BarLineScatterCandleBubbleChartDataProvider", "isInverted"]
+- ["P6Charts43BarLineScatterCandleBubbleChartDataProvider", "lowestVisibleXIndex"]
+- ["P6Charts43BarLineScatterCandleBubbleChartDataProvider", "maxVisibleValueCount"]
+- ["PSs11CVarArgType", "AxisDependency"]
+- ["C6Charts13ChartAxisBase", "AxisDependency"]
+- ["C6Charts18ChartComponentBase", "AxisDependency"]
+- ["P6Charts17ChartDataProvider", "Bool"]
+- ["P6Charts17ChartDataProvider", "ChartTransformer"]
+- ["P6Charts17ChartDataProvider", "ChartYAxis"]
+- ["P6Charts17ChartDataProvider", "Int"]
+- ["P6Charts17ChartDataProvider", ""]
+- ["C6Charts10ChartYAxis", "AxisDependency"]
+- ["PSs23CustomStringConvertible", "AxisDependency"]
+- ["PSs9Equatable", "AxisDependency"]
+- ["PSs8Hashable", "AxisDependency"]
+- ["CSo8NSObject", "AxisDependency"]
+- ["PSo16NSObjectProtocol", "AxisDependency"]
+depends-nominal:
+- "PSs9AnyObject"
+- "P6Charts43BarLineScatterCandleBubbleChartDataProvider"
+- "PSs11CVarArgType"
+- "C6Charts13ChartAxisBase"
+- "C6Charts18ChartComponentBase"
+- "P6Charts17ChartDataProvider"
+- "C6Charts10ChartYAxis"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/markmoussa/HackathonProjects/Rhabit/Pods/Target Support Files/Charts/Charts-umbrella.h"
+- "/Users/markmoussa/HackathonProjects/Rhabit/DerivedData/Rhabit/Build/Intermediates/Pods.build/Debug-iphonesimulator/Charts.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "207c7322c35bdce1839d706d38580ec0"

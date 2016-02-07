@@ -1,0 +1,271 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ChartRendererBase"
+provides-nominal:
+- "C6Charts17ChartRendererBase"
+provides-member:
+- ["C6Charts17ChartRendererBase", ""]
+provides-dynamic-lookup:
+- "calcXBounds"
+- "minX"
+- "viewPortHandler"
+- "maxX"
+depends-top-level:
+- !private "=="
+- "ChartRendererBase"
+- !private "min"
+- !private "/"
+- "NSObject"
+- !private "*"
+- !private "max"
+- !private "-"
+- "ChartViewPortHandler"
+- !private "+"
+- "BarLineChartViewBase"
+- "Int"
+- !private "%"
+depends-member:
+- !private ["PSs9AnyObject", "Int"]
+- ["PSs9AnyObject", "calcXBounds"]
+- !private ["PSs9AnyObject", "chartXMax"]
+- !private ["PSs9AnyObject", "highestVisibleXIndex"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "lowestVisibleXIndex"]
+- !private ["PSs9AnyObject", "max"]
+- ["PSs9AnyObject", "maxX"]
+- !private ["PSs9AnyObject", "min"]
+- ["PSs9AnyObject", "minX"]
+- ["PSs9AnyObject", "viewPortHandler"]
+- ["PSs9AnyObject", ""]
+- !private ["C6Charts20BarLineChartViewBase", "chartXMax"]
+- !private ["C6Charts20BarLineChartViewBase", "deinit"]
+- !private ["C6Charts20BarLineChartViewBase", "highestVisibleXIndex"]
+- !private ["C6Charts20BarLineChartViewBase", "lowestVisibleXIndex"]
+- !private ["P6Charts43BarLineScatterCandleBubbleChartDataProvider", "chartXMax"]
+- !private ["P6Charts43BarLineScatterCandleBubbleChartDataProvider", "highestVisibleXIndex"]
+- !private ["P6Charts43BarLineScatterCandleBubbleChartDataProvider", "lowestVisibleXIndex"]
+- !private ["PSs22BidirectionalIndexType", "init"]
+- !private ["PSs21BitwiseOperationsType", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["PSs11CVarArgType", "Int"]
+- ["PSs11CVarArgType", "calcXBounds"]
+- !private ["PSs11CVarArgType", "chartXMax"]
+- !private ["PSs11CVarArgType", "highestVisibleXIndex"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "lowestVisibleXIndex"]
+- !private ["PSs11CVarArgType", "max"]
+- ["PSs11CVarArgType", "maxX"]
+- !private ["PSs11CVarArgType", "min"]
+- ["PSs11CVarArgType", "minX"]
+- ["PSs11CVarArgType", "viewPortHandler"]
+- ["PSs11CVarArgType", ""]
+- !private ["P6Charts21ChartAnimatorDelegate", "chartXMax"]
+- !private ["P6Charts21ChartAnimatorDelegate", "highestVisibleXIndex"]
+- !private ["P6Charts21ChartAnimatorDelegate", "lowestVisibleXIndex"]
+- !private ["P6Charts17ChartDataProvider", "chartXMax"]
+- !private ["P6Charts17ChartDataProvider", "highestVisibleXIndex"]
+- !private ["P6Charts17ChartDataProvider", "lowestVisibleXIndex"]
+- ["C6Charts17ChartRendererBase", "BarLineChartViewBase"]
+- ["C6Charts17ChartRendererBase", "ChartViewPortHandler"]
+- ["C6Charts17ChartRendererBase", "Int"]
+- ["C6Charts17ChartRendererBase", "calcXBounds"]
+- ["C6Charts17ChartRendererBase", "deinit"]
+- ["C6Charts17ChartRendererBase", "init"]
+- !private ["C6Charts17ChartRendererBase", "max"]
+- ["C6Charts17ChartRendererBase", "maxX"]
+- !private ["C6Charts17ChartRendererBase", "min"]
+- ["C6Charts17ChartRendererBase", "minX"]
+- ["C6Charts17ChartRendererBase", "viewPortHandler"]
+- !private ["C6Charts13ChartViewBase", "chartXMax"]
+- !private ["C6Charts13ChartViewBase", "highestVisibleXIndex"]
+- !private ["C6Charts13ChartViewBase", "lowestVisibleXIndex"]
+- !private ["PSs10Comparable", "init"]
+- !private ["PSs23CustomStringConvertible", "Int"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["PSs23CustomStringConvertible", "calcXBounds"]
+- !private ["PSs23CustomStringConvertible", "chartXMax"]
+- !private ["PSs23CustomStringConvertible", "highestVisibleXIndex"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "lowestVisibleXIndex"]
+- !private ["PSs23CustomStringConvertible", "max"]
+- ["PSs23CustomStringConvertible", "maxX"]
+- !private ["PSs23CustomStringConvertible", "min"]
+- ["PSs23CustomStringConvertible", "minX"]
+- ["PSs23CustomStringConvertible", "viewPortHandler"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "Int"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- ["PSs9Equatable", "calcXBounds"]
+- !private ["PSs9Equatable", "chartXMax"]
+- !private ["PSs9Equatable", "highestVisibleXIndex"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "lowestVisibleXIndex"]
+- !private ["PSs9Equatable", "max"]
+- ["PSs9Equatable", "maxX"]
+- !private ["PSs9Equatable", "min"]
+- ["PSs9Equatable", "minX"]
+- ["PSs9Equatable", "viewPortHandler"]
+- ["PSs9Equatable", ""]
+- !private ["PSs16ForwardIndexType", "init"]
+- !private ["PSs8Hashable", "Int"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- ["PSs8Hashable", "calcXBounds"]
+- !private ["PSs8Hashable", "chartXMax"]
+- !private ["PSs8Hashable", "highestVisibleXIndex"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "lowestVisibleXIndex"]
+- !private ["PSs8Hashable", "max"]
+- ["PSs8Hashable", "maxX"]
+- !private ["PSs8Hashable", "min"]
+- ["PSs8Hashable", "minX"]
+- ["PSs8Hashable", "viewPortHandler"]
+- ["PSs8Hashable", ""]
+- !private ["Si", "init"]
+- !private ["PSs21IntegerArithmeticType", "init"]
+- !private ["PSs25IntegerLiteralConvertible", "init"]
+- !private ["PSs11IntegerType", "init"]
+- !private ["PSs14MirrorPathType", "init"]
+- !private ["PSo8NSCoding", "chartXMax"]
+- !private ["PSo8NSCoding", "highestVisibleXIndex"]
+- !private ["PSo8NSCoding", "lowestVisibleXIndex"]
+- ["CSo8NSObject", "BarLineChartViewBase"]
+- ["CSo8NSObject", "ChartViewPortHandler"]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "calcXBounds"]
+- !private ["CSo8NSObject", "chartXMax"]
+- !private ["CSo8NSObject", "highestVisibleXIndex"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "lowestVisibleXIndex"]
+- !private ["CSo8NSObject", "max"]
+- ["CSo8NSObject", "maxX"]
+- !private ["CSo8NSObject", "min"]
+- ["CSo8NSObject", "minX"]
+- ["CSo8NSObject", "viewPortHandler"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "Int"]
+- ["PSo16NSObjectProtocol", "calcXBounds"]
+- !private ["PSo16NSObjectProtocol", "chartXMax"]
+- !private ["PSo16NSObjectProtocol", "highestVisibleXIndex"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "lowestVisibleXIndex"]
+- !private ["PSo16NSObjectProtocol", "max"]
+- ["PSo16NSObjectProtocol", "maxX"]
+- !private ["PSo16NSObjectProtocol", "min"]
+- ["PSo16NSObjectProtocol", "minX"]
+- ["PSo16NSObjectProtocol", "viewPortHandler"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSs21RandomAccessIndexType", "init"]
+- !private ["PSs17SignedIntegerType", "init"]
+- !private ["PSs16SignedNumberType", "init"]
+- !private ["PSs10Strideable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "chartXMax"]
+- !private ["PSo29UIAccessibilityIdentification", "highestVisibleXIndex"]
+- !private ["PSo29UIAccessibilityIdentification", "lowestVisibleXIndex"]
+- !private ["PSo12UIAppearance", "chartXMax"]
+- !private ["PSo12UIAppearance", "highestVisibleXIndex"]
+- !private ["PSo12UIAppearance", "lowestVisibleXIndex"]
+- !private ["PSo21UIAppearanceContainer", "chartXMax"]
+- !private ["PSo21UIAppearanceContainer", "highestVisibleXIndex"]
+- !private ["PSo21UIAppearanceContainer", "lowestVisibleXIndex"]
+- !private ["PSo17UICoordinateSpace", "chartXMax"]
+- !private ["PSo17UICoordinateSpace", "highestVisibleXIndex"]
+- !private ["PSo17UICoordinateSpace", "lowestVisibleXIndex"]
+- !private ["PSo13UIDynamicItem", "chartXMax"]
+- !private ["PSo13UIDynamicItem", "highestVisibleXIndex"]
+- !private ["PSo13UIDynamicItem", "lowestVisibleXIndex"]
+- !private ["PSo18UIFocusEnvironment", "chartXMax"]
+- !private ["PSo18UIFocusEnvironment", "highestVisibleXIndex"]
+- !private ["PSo18UIFocusEnvironment", "lowestVisibleXIndex"]
+- !private ["PSo27UIGestureRecognizerDelegate", "chartXMax"]
+- !private ["PSo27UIGestureRecognizerDelegate", "highestVisibleXIndex"]
+- !private ["PSo27UIGestureRecognizerDelegate", "lowestVisibleXIndex"]
+- !private ["CSo11UIResponder", "chartXMax"]
+- !private ["CSo11UIResponder", "highestVisibleXIndex"]
+- !private ["CSo11UIResponder", "lowestVisibleXIndex"]
+- !private ["PSo18UITraitEnvironment", "chartXMax"]
+- !private ["PSo18UITraitEnvironment", "highestVisibleXIndex"]
+- !private ["PSo18UITraitEnvironment", "lowestVisibleXIndex"]
+- !private ["CSo6UIView", "chartXMax"]
+- !private ["CSo6UIView", "highestVisibleXIndex"]
+- !private ["CSo6UIView", "lowestVisibleXIndex"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "init"]
+- !private ["PSs14_Incrementable", "init"]
+- !private ["PSs22_IntegerArithmeticType", "init"]
+- !private ["PSs12_IntegerType", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs22_RandomAccessAmbiguity", "init"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "chartXMax"]
+- !private ["PSs12_Reflectable", "highestVisibleXIndex"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "lowestVisibleXIndex"]
+- !private ["PSs18_SignedIntegerType", "init"]
+- !private ["PSs11_Strideable", "init"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "C6Charts20BarLineChartViewBase"
+- !private "P6Charts43BarLineScatterCandleBubbleChartDataProvider"
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs21BitwiseOperationsType"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- "PSs11CVarArgType"
+- !private "P6Charts21ChartAnimatorDelegate"
+- !private "P6Charts17ChartDataProvider"
+- "C6Charts17ChartRendererBase"
+- !private "C6Charts13ChartViewBase"
+- !private "PSs10Comparable"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- !private "PSs16ForwardIndexType"
+- "PSs8Hashable"
+- !private "Si"
+- !private "PSs21IntegerArithmeticType"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
+- !private "PSs14MirrorPathType"
+- !private "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSs21RandomAccessIndexType"
+- !private "PSs17SignedIntegerType"
+- !private "PSs16SignedNumberType"
+- !private "PSs10Strideable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo27UIGestureRecognizerDelegate"
+- !private "CSo11UIResponder"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs22_RandomAccessAmbiguity"
+- !private "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
+- !private "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/markmoussa/HackathonProjects/Rhabit/Pods/Target Support Files/Charts/Charts-umbrella.h"
+- "/Users/markmoussa/HackathonProjects/Rhabit/DerivedData/Rhabit/Build/Intermediates/Pods.build/Debug-iphonesimulator/Charts.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "530341091c34ae47b00d08c20409cf4b"

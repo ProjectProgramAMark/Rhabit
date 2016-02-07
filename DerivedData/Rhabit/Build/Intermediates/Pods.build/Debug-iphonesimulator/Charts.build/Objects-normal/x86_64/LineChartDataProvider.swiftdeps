@@ -1,0 +1,62 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LineChartDataProvider"
+provides-nominal:
+- "P6Charts21LineChartDataProvider"
+provides-member:
+- ["P6Charts21LineChartDataProvider", ""]
+provides-dynamic-lookup:
+- "lineData"
+- "getAxis"
+depends-top-level:
+- "ChartYAxis"
+- "LineChartDataProvider"
+- "BarLineScatterCandleBubbleChartDataProvider"
+- "LineChartData"
+depends-member:
+- ["PSs9AnyObject", "AxisDependency"]
+- ["P6Charts43BarLineScatterCandleBubbleChartDataProvider", "ChartYAxis"]
+- ["P6Charts43BarLineScatterCandleBubbleChartDataProvider", "LineChartData"]
+- ["P6Charts43BarLineScatterCandleBubbleChartDataProvider", ""]
+- ["PSs11CVarArgType", "AxisDependency"]
+- ["C6Charts13ChartAxisBase", "AxisDependency"]
+- ["C6Charts18ChartComponentBase", "AxisDependency"]
+- ["P6Charts17ChartDataProvider", "ChartYAxis"]
+- ["P6Charts17ChartDataProvider", "LineChartData"]
+- ["C6Charts10ChartYAxis", "AxisDependency"]
+- ["PSs23CustomStringConvertible", "AxisDependency"]
+- ["PSs9Equatable", "AxisDependency"]
+- ["PSs8Hashable", "AxisDependency"]
+- ["P6Charts21LineChartDataProvider", "ChartYAxis"]
+- ["P6Charts21LineChartDataProvider", "LineChartData"]
+- ["P6Charts21LineChartDataProvider", "getAxis"]
+- ["P6Charts21LineChartDataProvider", "lineData"]
+- ["CSo8NSObject", "AxisDependency"]
+- ["PSo16NSObjectProtocol", "AxisDependency"]
+depends-nominal:
+- "PSs9AnyObject"
+- "P6Charts43BarLineScatterCandleBubbleChartDataProvider"
+- "PSs11CVarArgType"
+- "C6Charts13ChartAxisBase"
+- "C6Charts18ChartComponentBase"
+- "P6Charts17ChartDataProvider"
+- "C6Charts10ChartYAxis"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- "P6Charts21LineChartDataProvider"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/markmoussa/HackathonProjects/Rhabit/Pods/Target Support Files/Charts/Charts-umbrella.h"
+- "/Users/markmoussa/HackathonProjects/Rhabit/DerivedData/Rhabit/Build/Intermediates/Pods.build/Debug-iphonesimulator/Charts.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "92296f0c8c5673deb815ae4eb54a98b6"

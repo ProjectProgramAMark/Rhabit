@@ -1,0 +1,239 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LineRadarChartRenderer"
+provides-nominal:
+- "C6Charts22LineRadarChartRenderer"
+provides-member:
+- ["C6Charts22LineRadarChartRenderer", ""]
+provides-dynamic-lookup:
+- "drawFilledPath"
+- "drawFilledPath"
+depends-top-level:
+- "CGFloat"
+- !private "CGContextFillPath"
+- "UIColor"
+- !private "CGContextSetAlpha"
+- !private "CGContextRestoreGState"
+- !private "CGContextBeginPath"
+- !private "CGContextAddPath"
+- "ChartViewPortHandler"
+- "ChartAnimator"
+- !private "CGContextSaveGState"
+- "LineScatterCandleRadarChartRenderer"
+- !private "CGContextSetFillColorWithColor"
+- "ChartFill"
+- "CGPath"
+- "LineRadarChartRenderer"
+- "CGContext"
+depends-member:
+- !private ["PSs9AnyObject", "CGColor"]
+- !private ["PSs9AnyObject", "CGContextAddPath"]
+- !private ["PSs9AnyObject", "CGContextBeginPath"]
+- !private ["PSs9AnyObject", "CGContextFillPath"]
+- !private ["PSs9AnyObject", "CGContextRestoreGState"]
+- !private ["PSs9AnyObject", "CGContextSaveGState"]
+- !private ["PSs9AnyObject", "CGContextSetAlpha"]
+- !private ["PSs9AnyObject", "CGContextSetFillColorWithColor"]
+- !private ["PSs9AnyObject", "contentRect"]
+- ["PSs9AnyObject", "drawFilledPath"]
+- !private ["PSs9AnyObject", "fillPath"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "viewPortHandler"]
+- ["PSs9AnyObject", ""]
+- !private ["PSs11CVarArgType", "CGColor"]
+- !private ["PSs11CVarArgType", "CGContextAddPath"]
+- !private ["PSs11CVarArgType", "CGContextBeginPath"]
+- !private ["PSs11CVarArgType", "CGContextFillPath"]
+- !private ["PSs11CVarArgType", "CGContextRestoreGState"]
+- !private ["PSs11CVarArgType", "CGContextSaveGState"]
+- !private ["PSs11CVarArgType", "CGContextSetAlpha"]
+- !private ["PSs11CVarArgType", "CGContextSetFillColorWithColor"]
+- !private ["PSs11CVarArgType", "contentRect"]
+- ["PSs11CVarArgType", "drawFilledPath"]
+- !private ["PSs11CVarArgType", "fillPath"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "viewPortHandler"]
+- ["PSs11CVarArgType", ""]
+- ["C6Charts21ChartDataRendererBase", "CGContext"]
+- !private ["C6Charts21ChartDataRendererBase", "CGContextAddPath"]
+- !private ["C6Charts21ChartDataRendererBase", "CGContextBeginPath"]
+- !private ["C6Charts21ChartDataRendererBase", "CGContextFillPath"]
+- !private ["C6Charts21ChartDataRendererBase", "CGContextRestoreGState"]
+- !private ["C6Charts21ChartDataRendererBase", "CGContextSaveGState"]
+- !private ["C6Charts21ChartDataRendererBase", "CGContextSetAlpha"]
+- !private ["C6Charts21ChartDataRendererBase", "CGContextSetFillColorWithColor"]
+- ["C6Charts21ChartDataRendererBase", "CGFloat"]
+- ["C6Charts21ChartDataRendererBase", "CGPath"]
+- ["C6Charts21ChartDataRendererBase", "ChartAnimator"]
+- ["C6Charts21ChartDataRendererBase", "ChartFill"]
+- ["C6Charts21ChartDataRendererBase", "ChartViewPortHandler"]
+- ["C6Charts21ChartDataRendererBase", "UIColor"]
+- ["C6Charts21ChartDataRendererBase", "drawFilledPath"]
+- ["C6Charts21ChartDataRendererBase", "init"]
+- !private ["C6Charts21ChartDataRendererBase", "viewPortHandler"]
+- !private ["C6Charts9ChartFill", "fillPath"]
+- ["C6Charts17ChartRendererBase", "CGContext"]
+- !private ["C6Charts17ChartRendererBase", "CGContextAddPath"]
+- !private ["C6Charts17ChartRendererBase", "CGContextBeginPath"]
+- !private ["C6Charts17ChartRendererBase", "CGContextFillPath"]
+- !private ["C6Charts17ChartRendererBase", "CGContextRestoreGState"]
+- !private ["C6Charts17ChartRendererBase", "CGContextSaveGState"]
+- !private ["C6Charts17ChartRendererBase", "CGContextSetAlpha"]
+- !private ["C6Charts17ChartRendererBase", "CGContextSetFillColorWithColor"]
+- ["C6Charts17ChartRendererBase", "CGFloat"]
+- ["C6Charts17ChartRendererBase", "CGPath"]
+- ["C6Charts17ChartRendererBase", "ChartAnimator"]
+- ["C6Charts17ChartRendererBase", "ChartFill"]
+- ["C6Charts17ChartRendererBase", "ChartViewPortHandler"]
+- ["C6Charts17ChartRendererBase", "UIColor"]
+- ["C6Charts17ChartRendererBase", "drawFilledPath"]
+- !private ["C6Charts17ChartRendererBase", "viewPortHandler"]
+- !private ["C6Charts20ChartViewPortHandler", "contentRect"]
+- !private ["PSs23CustomStringConvertible", "CGColor"]
+- !private ["PSs23CustomStringConvertible", "CGContextAddPath"]
+- !private ["PSs23CustomStringConvertible", "CGContextBeginPath"]
+- !private ["PSs23CustomStringConvertible", "CGContextFillPath"]
+- !private ["PSs23CustomStringConvertible", "CGContextRestoreGState"]
+- !private ["PSs23CustomStringConvertible", "CGContextSaveGState"]
+- !private ["PSs23CustomStringConvertible", "CGContextSetAlpha"]
+- !private ["PSs23CustomStringConvertible", "CGContextSetFillColorWithColor"]
+- !private ["PSs23CustomStringConvertible", "contentRect"]
+- ["PSs23CustomStringConvertible", "drawFilledPath"]
+- !private ["PSs23CustomStringConvertible", "fillPath"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "viewPortHandler"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "CGColor"]
+- !private ["PSs9Equatable", "CGContextAddPath"]
+- !private ["PSs9Equatable", "CGContextBeginPath"]
+- !private ["PSs9Equatable", "CGContextFillPath"]
+- !private ["PSs9Equatable", "CGContextRestoreGState"]
+- !private ["PSs9Equatable", "CGContextSaveGState"]
+- !private ["PSs9Equatable", "CGContextSetAlpha"]
+- !private ["PSs9Equatable", "CGContextSetFillColorWithColor"]
+- !private ["PSs9Equatable", "contentRect"]
+- ["PSs9Equatable", "drawFilledPath"]
+- !private ["PSs9Equatable", "fillPath"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "viewPortHandler"]
+- ["PSs9Equatable", ""]
+- !private ["PSs8Hashable", "CGColor"]
+- !private ["PSs8Hashable", "CGContextAddPath"]
+- !private ["PSs8Hashable", "CGContextBeginPath"]
+- !private ["PSs8Hashable", "CGContextFillPath"]
+- !private ["PSs8Hashable", "CGContextRestoreGState"]
+- !private ["PSs8Hashable", "CGContextSaveGState"]
+- !private ["PSs8Hashable", "CGContextSetAlpha"]
+- !private ["PSs8Hashable", "CGContextSetFillColorWithColor"]
+- !private ["PSs8Hashable", "contentRect"]
+- ["PSs8Hashable", "drawFilledPath"]
+- !private ["PSs8Hashable", "fillPath"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "viewPortHandler"]
+- ["PSs8Hashable", ""]
+- ["C6Charts22LineRadarChartRenderer", "CGContext"]
+- !private ["C6Charts22LineRadarChartRenderer", "CGContextAddPath"]
+- !private ["C6Charts22LineRadarChartRenderer", "CGContextBeginPath"]
+- !private ["C6Charts22LineRadarChartRenderer", "CGContextFillPath"]
+- !private ["C6Charts22LineRadarChartRenderer", "CGContextRestoreGState"]
+- !private ["C6Charts22LineRadarChartRenderer", "CGContextSaveGState"]
+- !private ["C6Charts22LineRadarChartRenderer", "CGContextSetAlpha"]
+- !private ["C6Charts22LineRadarChartRenderer", "CGContextSetFillColorWithColor"]
+- ["C6Charts22LineRadarChartRenderer", "CGFloat"]
+- ["C6Charts22LineRadarChartRenderer", "CGPath"]
+- ["C6Charts22LineRadarChartRenderer", "ChartAnimator"]
+- ["C6Charts22LineRadarChartRenderer", "ChartFill"]
+- ["C6Charts22LineRadarChartRenderer", "ChartViewPortHandler"]
+- ["C6Charts22LineRadarChartRenderer", "UIColor"]
+- ["C6Charts22LineRadarChartRenderer", "deinit"]
+- ["C6Charts22LineRadarChartRenderer", "drawFilledPath"]
+- ["C6Charts22LineRadarChartRenderer", "init"]
+- !private ["C6Charts22LineRadarChartRenderer", "viewPortHandler"]
+- ["C6Charts35LineScatterCandleRadarChartRenderer", "CGContext"]
+- !private ["C6Charts35LineScatterCandleRadarChartRenderer", "CGContextAddPath"]
+- !private ["C6Charts35LineScatterCandleRadarChartRenderer", "CGContextBeginPath"]
+- !private ["C6Charts35LineScatterCandleRadarChartRenderer", "CGContextFillPath"]
+- !private ["C6Charts35LineScatterCandleRadarChartRenderer", "CGContextRestoreGState"]
+- !private ["C6Charts35LineScatterCandleRadarChartRenderer", "CGContextSaveGState"]
+- !private ["C6Charts35LineScatterCandleRadarChartRenderer", "CGContextSetAlpha"]
+- !private ["C6Charts35LineScatterCandleRadarChartRenderer", "CGContextSetFillColorWithColor"]
+- ["C6Charts35LineScatterCandleRadarChartRenderer", "CGFloat"]
+- ["C6Charts35LineScatterCandleRadarChartRenderer", "CGPath"]
+- ["C6Charts35LineScatterCandleRadarChartRenderer", "ChartAnimator"]
+- ["C6Charts35LineScatterCandleRadarChartRenderer", "ChartFill"]
+- ["C6Charts35LineScatterCandleRadarChartRenderer", "ChartViewPortHandler"]
+- ["C6Charts35LineScatterCandleRadarChartRenderer", "UIColor"]
+- ["C6Charts35LineScatterCandleRadarChartRenderer", "drawFilledPath"]
+- ["C6Charts35LineScatterCandleRadarChartRenderer", "init"]
+- !private ["C6Charts35LineScatterCandleRadarChartRenderer", "viewPortHandler"]
+- ["C6Charts35LineScatterCandleRadarChartRenderer", ""]
+- !private ["PSo8NSCoding", "CGColor"]
+- !private ["PSo9NSCopying", "CGColor"]
+- !private ["CSo8NSObject", "CGColor"]
+- ["CSo8NSObject", "CGContext"]
+- !private ["CSo8NSObject", "CGContextAddPath"]
+- !private ["CSo8NSObject", "CGContextBeginPath"]
+- !private ["CSo8NSObject", "CGContextFillPath"]
+- !private ["CSo8NSObject", "CGContextRestoreGState"]
+- !private ["CSo8NSObject", "CGContextSaveGState"]
+- !private ["CSo8NSObject", "CGContextSetAlpha"]
+- !private ["CSo8NSObject", "CGContextSetFillColorWithColor"]
+- ["CSo8NSObject", "CGFloat"]
+- ["CSo8NSObject", "CGPath"]
+- ["CSo8NSObject", "ChartAnimator"]
+- ["CSo8NSObject", "ChartFill"]
+- ["CSo8NSObject", "ChartViewPortHandler"]
+- ["CSo8NSObject", "UIColor"]
+- !private ["CSo8NSObject", "contentRect"]
+- ["CSo8NSObject", "drawFilledPath"]
+- !private ["CSo8NSObject", "fillPath"]
+- !private ["CSo8NSObject", "viewPortHandler"]
+- !private ["PSo16NSObjectProtocol", "CGColor"]
+- !private ["PSo16NSObjectProtocol", "CGContextAddPath"]
+- !private ["PSo16NSObjectProtocol", "CGContextBeginPath"]
+- !private ["PSo16NSObjectProtocol", "CGContextFillPath"]
+- !private ["PSo16NSObjectProtocol", "CGContextRestoreGState"]
+- !private ["PSo16NSObjectProtocol", "CGContextSaveGState"]
+- !private ["PSo16NSObjectProtocol", "CGContextSetAlpha"]
+- !private ["PSo16NSObjectProtocol", "CGContextSetFillColorWithColor"]
+- !private ["PSo16NSObjectProtocol", "contentRect"]
+- ["PSo16NSObjectProtocol", "drawFilledPath"]
+- !private ["PSo16NSObjectProtocol", "fillPath"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "viewPortHandler"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "CGColor"]
+- !private ["CSo7UIColor", "CGColor"]
+- !private ["PSs24_ColorLiteralConvertible", "CGColor"]
+depends-nominal:
+- "PSs9AnyObject"
+- "PSs11CVarArgType"
+- "C6Charts21ChartDataRendererBase"
+- !private "C6Charts9ChartFill"
+- "C6Charts17ChartRendererBase"
+- !private "C6Charts20ChartViewPortHandler"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- "C6Charts22LineRadarChartRenderer"
+- "C6Charts35LineScatterCandleRadarChartRenderer"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo7UIColor"
+- !private "PSs24_ColorLiteralConvertible"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/markmoussa/HackathonProjects/Rhabit/Pods/Target Support Files/Charts/Charts-umbrella.h"
+- "/Users/markmoussa/HackathonProjects/Rhabit/DerivedData/Rhabit/Build/Intermediates/Pods.build/Debug-iphonesimulator/Charts.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "e2be6cf6032d586a7f018b2feaaff2f8"

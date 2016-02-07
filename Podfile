@@ -2,8 +2,7 @@
  platform :ios, '8.0'
 # Uncomment this line if you're using Swift
  use_frameworks!
-pod 'Firebase', '>= 2.5.0'
-pod 'ios-charts', '~> 0.0'
+pod 'Charts'
 
 target 'Rhabit' do
 

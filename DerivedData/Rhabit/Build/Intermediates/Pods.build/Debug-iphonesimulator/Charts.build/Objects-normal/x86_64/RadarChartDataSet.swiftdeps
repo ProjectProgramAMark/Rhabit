@@ -1,0 +1,162 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RadarChartDataSet"
+provides-nominal:
+- "C6Charts17RadarChartDataSet"
+provides-member:
+- ["C6Charts17RadarChartDataSet", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "LineRadarChartDataSet"
+- "IRadarChartDataSet"
+- !private "UIFont"
+- "RadarChartDataSet"
+- "ChartDataEntry"
+- !private "StringLiteralType"
+- "String"
+depends-member:
+- !private ["PSs9AnyObject", "UIFont"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "initialize"]
+- !private ["PSs9AnyObject", "systemFontOfSize"]
+- !private ["PSs9AnyObject", "valueFont"]
+- ["PSs9AnyObject", ""]
+- ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "ChartDataEntry"]
+- ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "String"]
+- !private ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "UIFont"]
+- ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "init"]
+- ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "initialize"]
+- !private ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "valueFont"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["PSs11CVarArgType", "UIFont"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "initialize"]
+- !private ["PSs11CVarArgType", "systemFontOfSize"]
+- !private ["PSs11CVarArgType", "valueFont"]
+- ["PSs11CVarArgType", ""]
+- ["C6Charts16ChartBaseDataSet", "ChartDataEntry"]
+- ["C6Charts16ChartBaseDataSet", "String"]
+- !private ["C6Charts16ChartBaseDataSet", "UIFont"]
+- ["C6Charts16ChartBaseDataSet", "init"]
+- ["C6Charts16ChartBaseDataSet", "initialize"]
+- !private ["C6Charts16ChartBaseDataSet", "valueFont"]
+- ["C6Charts12ChartDataSet", "ChartDataEntry"]
+- ["C6Charts12ChartDataSet", "String"]
+- !private ["C6Charts12ChartDataSet", "UIFont"]
+- ["C6Charts12ChartDataSet", "init"]
+- ["C6Charts12ChartDataSet", "initialize"]
+- !private ["C6Charts12ChartDataSet", "valueFont"]
+- !private ["PSs23CustomStringConvertible", "UIFont"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "initialize"]
+- !private ["PSs23CustomStringConvertible", "systemFontOfSize"]
+- !private ["PSs23CustomStringConvertible", "valueFont"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "UIFont"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "initialize"]
+- !private ["PSs9Equatable", "systemFontOfSize"]
+- !private ["PSs9Equatable", "valueFont"]
+- ["PSs9Equatable", ""]
+- !private ["PSs8Hashable", "UIFont"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "initialize"]
+- !private ["PSs8Hashable", "systemFontOfSize"]
+- !private ["PSs8Hashable", "valueFont"]
+- ["PSs8Hashable", ""]
+- !private ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "UIFont"]
+- ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "init"]
+- ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "initialize"]
+- !private ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "valueFont"]
+- ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", ""]
+- !private ["P6Charts13IChartDataSet", "UIFont"]
+- ["P6Charts13IChartDataSet", "init"]
+- ["P6Charts13IChartDataSet", "initialize"]
+- !private ["P6Charts13IChartDataSet", "valueFont"]
+- ["P6Charts13IChartDataSet", ""]
+- !private ["P6Charts22ILineRadarChartDataSet", "UIFont"]
+- ["P6Charts22ILineRadarChartDataSet", "init"]
+- ["P6Charts22ILineRadarChartDataSet", "initialize"]
+- !private ["P6Charts22ILineRadarChartDataSet", "valueFont"]
+- ["P6Charts22ILineRadarChartDataSet", ""]
+- !private ["P6Charts35ILineScatterCandleRadarChartDataSet", "UIFont"]
+- ["P6Charts35ILineScatterCandleRadarChartDataSet", "init"]
+- ["P6Charts35ILineScatterCandleRadarChartDataSet", "initialize"]
+- !private ["P6Charts35ILineScatterCandleRadarChartDataSet", "valueFont"]
+- ["P6Charts35ILineScatterCandleRadarChartDataSet", ""]
+- !private ["P6Charts18IRadarChartDataSet", "UIFont"]
+- !private ["P6Charts18IRadarChartDataSet", "initialize"]
+- !private ["P6Charts18IRadarChartDataSet", "valueFont"]
+- ["P6Charts18IRadarChartDataSet", ""]
+- ["C6Charts21LineRadarChartDataSet", "ChartDataEntry"]
+- ["C6Charts21LineRadarChartDataSet", "String"]
+- !private ["C6Charts21LineRadarChartDataSet", "UIFont"]
+- ["C6Charts21LineRadarChartDataSet", "init"]
+- ["C6Charts21LineRadarChartDataSet", "initialize"]
+- !private ["C6Charts21LineRadarChartDataSet", "valueFont"]
+- ["C6Charts21LineRadarChartDataSet", ""]
+- ["C6Charts34LineScatterCandleRadarChartDataSet", "ChartDataEntry"]
+- ["C6Charts34LineScatterCandleRadarChartDataSet", "String"]
+- !private ["C6Charts34LineScatterCandleRadarChartDataSet", "UIFont"]
+- ["C6Charts34LineScatterCandleRadarChartDataSet", "init"]
+- ["C6Charts34LineScatterCandleRadarChartDataSet", "initialize"]
+- !private ["C6Charts34LineScatterCandleRadarChartDataSet", "valueFont"]
+- !private ["PSo9NSCopying", "systemFontOfSize"]
+- ["CSo8NSObject", "ChartDataEntry"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "UIFont"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "initialize"]
+- !private ["CSo8NSObject", "systemFontOfSize"]
+- !private ["CSo8NSObject", "valueFont"]
+- !private ["PSo16NSObjectProtocol", "UIFont"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "initialize"]
+- !private ["PSo16NSObjectProtocol", "systemFontOfSize"]
+- !private ["PSo16NSObjectProtocol", "valueFont"]
+- ["PSo16NSObjectProtocol", ""]
+- ["C6Charts17RadarChartDataSet", "ChartDataEntry"]
+- ["C6Charts17RadarChartDataSet", "String"]
+- !private ["C6Charts17RadarChartDataSet", "UIFont"]
+- ["C6Charts17RadarChartDataSet", "deinit"]
+- ["C6Charts17RadarChartDataSet", "init"]
+- !private ["C6Charts17RadarChartDataSet", "initialize"]
+- !private ["C6Charts17RadarChartDataSet", "valueFont"]
+- !private ["VSs12StaticString", "deinit"]
+- !private ["CSo6UIFont", "systemFontOfSize"]
+depends-nominal:
+- "PSs9AnyObject"
+- "C6Charts38BarLineScatterCandleBubbleChartDataSet"
+- !private "V12CoreGraphics7CGFloat"
+- "PSs11CVarArgType"
+- "C6Charts16ChartBaseDataSet"
+- "C6Charts12ChartDataSet"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- "P6Charts39IBarLineScatterCandleBubbleChartDataSet"
+- "P6Charts13IChartDataSet"
+- "P6Charts22ILineRadarChartDataSet"
+- "P6Charts35ILineScatterCandleRadarChartDataSet"
+- "P6Charts18IRadarChartDataSet"
+- "C6Charts21LineRadarChartDataSet"
+- "C6Charts34LineScatterCandleRadarChartDataSet"
+- !private "PSo9NSCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "C6Charts17RadarChartDataSet"
+- !private "VSs12StaticString"
+- !private "CSo6UIFont"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/markmoussa/HackathonProjects/Rhabit/Pods/Target Support Files/Charts/Charts-umbrella.h"
+- "/Users/markmoussa/HackathonProjects/Rhabit/DerivedData/Rhabit/Build/Intermediates/Pods.build/Debug-iphonesimulator/Charts.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "7fbf92de47a5267ffcd4c131a419070f"

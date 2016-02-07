@@ -4,83 +4,28 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Users/markmoussa/HackathonProjects/Rhabit/DerivedData/Rhabit/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers",
+      'name': "/Users/markmoussa/HackathonProjects/Rhabit/DerivedData/Rhabit/Build/Products/Debug-iphonesimulator/Charts.framework/Headers",
       'contents': [
         {
           'type': 'file',
-          'name': "FAuthData.h",
-          'external-contents': "/Users/markmoussa/HackathonProjects/Rhabit/Pods/Firebase/FAuthData.h"
+          'name': "Charts-Swift.h",
+          'external-contents': "/Users/markmoussa/HackathonProjects/Rhabit/DerivedData/Rhabit/Build/Products/Debug-iphonesimulator/Charts.framework/Headers/Charts-Swift.h"
         },
         {
           'type': 'file',
-          'name': "FAuthType.h",
-          'external-contents': "/Users/markmoussa/HackathonProjects/Rhabit/Pods/Firebase/FAuthType.h"
-        },
-        {
-          'type': 'file',
-          'name': "FConfig.h",
-          'external-contents': "/Users/markmoussa/HackathonProjects/Rhabit/Pods/Firebase/FConfig.h"
-        },
-        {
-          'type': 'file',
-          'name': "FDataSnapshot.h",
-          'external-contents': "/Users/markmoussa/HackathonProjects/Rhabit/Pods/Firebase/FDataSnapshot.h"
-        },
-        {
-          'type': 'file',
-          'name': "FEventType.h",
-          'external-contents': "/Users/markmoussa/HackathonProjects/Rhabit/Pods/Firebase/FEventType.h"
-        },
-        {
-          'type': 'file',
-          'name': "FMutableData.h",
-          'external-contents': "/Users/markmoussa/HackathonProjects/Rhabit/Pods/Firebase/FMutableData.h"
-        },
-        {
-          'type': 'file',
-          'name': "FQuery.h",
-          'external-contents': "/Users/markmoussa/HackathonProjects/Rhabit/Pods/Firebase/FQuery.h"
-        },
-        {
-          'type': 'file',
-          'name': "FTransactionResult.h",
-          'external-contents': "/Users/markmoussa/HackathonProjects/Rhabit/Pods/Firebase/FTransactionResult.h"
-        },
-        {
-          'type': 'file',
-          'name': "Firebase-Swift.h",
-          'external-contents': "/Users/markmoussa/HackathonProjects/Rhabit/DerivedData/Rhabit/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/Firebase-Swift.h"
-        },
-        {
-          'type': 'file',
-          'name': "Firebase-umbrella.h",
-          'external-contents': "/Users/markmoussa/HackathonProjects/Rhabit/Pods/Target Support Files/Firebase/Firebase-umbrella.h"
-        },
-        {
-          'type': 'file',
-          'name': "Firebase.h",
-          'external-contents': "/Users/markmoussa/HackathonProjects/Rhabit/Pods/Firebase/Firebase.h"
-        },
-        {
-          'type': 'file',
-          'name': "FirebaseApp.h",
-          'external-contents': "/Users/markmoussa/HackathonProjects/Rhabit/Pods/Firebase/FirebaseApp.h"
-        },
-        {
-          'type': 'file',
-          'name': "FirebaseServerValue.h",
-          'external-contents': "/Users/markmoussa/HackathonProjects/Rhabit/Pods/Firebase/FirebaseServerValue.h"
+          'name': "Charts-umbrella.h",
+          'external-contents': "/Users/markmoussa/HackathonProjects/Rhabit/Pods/Target Support Files/Charts/Charts-umbrella.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/markmoussa/HackathonProjects/Rhabit/DerivedData/Rhabit/Build/Products/Debug-iphonesimulator/Firebase.framework/Modules",
+      'name': "/Users/markmoussa/HackathonProjects/Rhabit/DerivedData/Rhabit/Build/Products/Debug-iphonesimulator/Charts.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/markmoussa/HackathonProjects/Rhabit/DerivedData/Rhabit/Build/Intermediates/Pods.build/Debug-iphonesimulator/Firebase.build/module.modulemap"
+          'external-contents': "/Users/markmoussa/HackathonProjects/Rhabit/DerivedData/Rhabit/Build/Intermediates/Pods.build/Debug-iphonesimulator/Charts.build/module.modulemap"
         }
       ]
     },
@@ -108,193 +53,6 @@
           'type': 'file',
           'name': "module.modulemap",
           'external-contents': "/Users/markmoussa/HackathonProjects/Rhabit/DerivedData/Rhabit/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/module.modulemap"
-        }
-      ]
-    },
-    {
-      'type': 'directory',
-      'name': "/Users/markmoussa/HackathonProjects/Rhabit/DerivedData/Rhabit/Build/Products/Debug-iphonesimulator/ios_charts.framework/Headers",
-      'contents': [
-        {
-          'type': 'file',
-          'name': "EGMDataPointRectRendererSpecification.h",
-          'external-contents': "/Users/markmoussa/HackathonProjects/Rhabit/Pods/ios-charts/Pod/Classes/renderer/model/EGMDataPointRectRendererSpecification.h"
-        },
-        {
-          'type': 'file',
-          'name': "EGMDataPointSectionContainer.h",
-          'external-contents': "/Users/markmoussa/HackathonProjects/Rhabit/Pods/ios-charts/Pod/Classes/renderer/manager/section/EGMDataPointSectionContainer.h"
-        },
-        {
-          'type': 'file',
-          'name': "EGMDataPointsLineModel.h",
-          'external-contents': "/Users/markmoussa/HackathonProjects/Rhabit/Pods/ios-charts/Pod/Classes/renderer/manager/section/EGMDataPointsLineModel.h"
-        },
-        {
-          'type': 'file',
-          'name': "EGMDataPointsLineRenderer.h",
-          'external-contents': "/Users/markmoussa/HackathonProjects/Rhabit/Pods/ios-charts/Pod/Classes/renderer/manager/section/EGMDataPointsLineRenderer.h"
-        },
-        {
-          'type': 'file',
-          'name': "EGMGraphAxisLabel.h",
-          'external-contents': "/Users/markmoussa/HackathonProjects/Rhabit/Pods/ios-charts/Pod/Classes/renderer/model/EGMGraphAxisLabel.h"
-        },
-        {
-          'type': 'file',
-          'name': "EGMGraphAxisRenderer.h",
-          'external-contents': "/Users/markmoussa/HackathonProjects/Rhabit/Pods/ios-charts/Pod/Classes/renderer/model/EGMGraphAxisRenderer.h"
-        },
-        {
-          'type': 'file',
-          'name': "EGMGraphAxisValue.h",
-          'external-contents': "/Users/markmoussa/HackathonProjects/Rhabit/Pods/ios-charts/Pod/Classes/model/EGMGraphAxisValue.h"
-        },
-        {
-          'type': 'file',
-          'name': "EGMGraphAxisValueDate.h",
-          'external-contents': "/Users/markmoussa/HackathonProjects/Rhabit/Pods/ios-charts/Pod/Classes/model/EGMGraphAxisValueDate.h"
-        },
-        {
-          'type': 'file',
-          'name': "EGMGraphAxisValueNumber.h",
-          'external-contents': "/Users/markmoussa/HackathonProjects/Rhabit/Pods/ios-charts/Pod/Classes/model/EGMGraphAxisValueNumber.h"
-        },
-        {
-          'type': 'file',
-          'name': "EGMGraphConflictSolver.h",
-          'external-contents': "/Users/markmoussa/HackathonProjects/Rhabit/Pods/ios-charts/Pod/Classes/renderer/manager/EGMGraphConflictSolver.h"
-        },
-        {
-          'type': 'file',
-          'name': "EGMGraphDataPoint.h",
-          'external-contents': "/Users/markmoussa/HackathonProjects/Rhabit/Pods/ios-charts/Pod/Classes/model/EGMGraphDataPoint.h"
-        },
-        {
-          'type': 'file',
-          'name': "EGMGraphDataPointBarRenderer.h",
-          'external-contents': "/Users/markmoussa/HackathonProjects/Rhabit/Pods/ios-charts/Pod/Classes/renderer/model/EGMGraphDataPointBarRenderer.h"
-        },
-        {
-          'type': 'file',
-          'name': "EGMGraphDataPointLineRenderer.h",
-          'external-contents': "/Users/markmoussa/HackathonProjects/Rhabit/Pods/ios-charts/Pod/Classes/renderer/model/EGMGraphDataPointLineRenderer.h"
-        },
-        {
-          'type': 'file',
-          'name': "EGMGraphDataPointRectRenderer.h",
-          'external-contents': "/Users/markmoussa/HackathonProjects/Rhabit/Pods/ios-charts/Pod/Classes/renderer/model/EGMGraphDataPointRectRenderer.h"
-        },
-        {
-          'type': 'file',
-          'name': "EGMGraphDataPointRectTextRenderer.h",
-          'external-contents': "/Users/markmoussa/HackathonProjects/Rhabit/Pods/ios-charts/Pod/Classes/renderer/model/EGMGraphDataPointRectTextRenderer.h"
-        },
-        {
-          'type': 'file',
-          'name': "EGMGraphDataPointRectWithNoteTextRenderer.h",
-          'external-contents': "/Users/markmoussa/HackathonProjects/Rhabit/Pods/ios-charts/Pod/Classes/renderer/model/EGMGraphDataPointRectWithNoteTextRenderer.h"
-        },
-        {
-          'type': 'file',
-          'name': "EGMGraphDataPointRenderer.h",
-          'external-contents': "/Users/markmoussa/HackathonProjects/Rhabit/Pods/ios-charts/Pod/Classes/renderer/model/EGMGraphDataPointRenderer.h"
-        },
-        {
-          'type': 'file',
-          'name': "EGMGraphDataPointTargetingRenderer.h",
-          'external-contents': "/Users/markmoussa/HackathonProjects/Rhabit/Pods/ios-charts/Pod/Classes/renderer/model/EGMGraphDataPointTargetingRenderer.h"
-        },
-        {
-          'type': 'file',
-          'name': "EGMGraphDataPointsManager.h",
-          'external-contents': "/Users/markmoussa/HackathonProjects/Rhabit/Pods/ios-charts/Pod/Classes/renderer/manager/EGMGraphDataPointsManager.h"
-        },
-        {
-          'type': 'file',
-          'name': "EGMGraphGuideRenderer.h",
-          'external-contents': "/Users/markmoussa/HackathonProjects/Rhabit/Pods/ios-charts/Pod/Classes/renderer/model/EGMGraphGuideRenderer.h"
-        },
-        {
-          'type': 'file',
-          'name': "EGMGraphGuidelineManager.h",
-          'external-contents': "/Users/markmoussa/HackathonProjects/Rhabit/Pods/ios-charts/Pod/Classes/renderer/manager/EGMGraphGuidelineManager.h"
-        },
-        {
-          'type': 'file',
-          'name': "EGMGraphItemRenderer.h",
-          'external-contents': "/Users/markmoussa/HackathonProjects/Rhabit/Pods/ios-charts/Pod/Classes/renderer/model/EGMGraphItemRenderer.h"
-        },
-        {
-          'type': 'file',
-          'name': "EGMGraphItemsManager.h",
-          'external-contents': "/Users/markmoussa/HackathonProjects/Rhabit/Pods/ios-charts/Pod/Classes/renderer/manager/EGMGraphItemsManager.h"
-        },
-        {
-          'type': 'file',
-          'name': "EGMGraphLabelManager.h",
-          'external-contents': "/Users/markmoussa/HackathonProjects/Rhabit/Pods/ios-charts/Pod/Classes/renderer/manager/EGMGraphLabelManager.h"
-        },
-        {
-          'type': 'file',
-          'name': "EGMGraphLabelRenderer.h",
-          'external-contents': "/Users/markmoussa/HackathonProjects/Rhabit/Pods/ios-charts/Pod/Classes/renderer/model/EGMGraphLabelRenderer.h"
-        },
-        {
-          'type': 'file',
-          'name': "EGMGraphLineManager.h",
-          'external-contents': "/Users/markmoussa/HackathonProjects/Rhabit/Pods/ios-charts/Pod/Classes/renderer/manager/EGMGraphLineManager.h"
-        },
-        {
-          'type': 'file',
-          'name': "EGMGraphLineRenderer.h",
-          'external-contents': "/Users/markmoussa/HackathonProjects/Rhabit/Pods/ios-charts/Pod/Classes/renderer/model/EGMGraphLineRenderer.h"
-        },
-        {
-          'type': 'file',
-          'name': "EGMGraphLineView.h",
-          'external-contents': "/Users/markmoussa/HackathonProjects/Rhabit/Pods/ios-charts/Pod/Classes/view/EGMGraphLineView.h"
-        },
-        {
-          'type': 'file',
-          'name': "EGMGraphLinesManager.h",
-          'external-contents': "/Users/markmoussa/HackathonProjects/Rhabit/Pods/ios-charts/Pod/Classes/renderer/manager/EGMGraphLinesManager.h"
-        },
-        {
-          'type': 'file',
-          'name': "EGMGraphRectConflictSolver.h",
-          'external-contents': "/Users/markmoussa/HackathonProjects/Rhabit/Pods/ios-charts/Pod/Classes/renderer/manager/EGMGraphRectConflictSolver.h"
-        },
-        {
-          'type': 'file',
-          'name': "EGMGraphUtils.h",
-          'external-contents': "/Users/markmoussa/HackathonProjects/Rhabit/Pods/ios-charts/Pod/Classes/utils/EGMGraphUtils.h"
-        },
-        {
-          'type': 'file',
-          'name': "EGMGraphView.h",
-          'external-contents': "/Users/markmoussa/HackathonProjects/Rhabit/Pods/ios-charts/Pod/Classes/view/EGMGraphView.h"
-        },
-        {
-          'type': 'file',
-          'name': "ios-charts-umbrella.h",
-          'external-contents': "/Users/markmoussa/HackathonProjects/Rhabit/Pods/Target Support Files/ios-charts/ios-charts-umbrella.h"
-        },
-        {
-          'type': 'file',
-          'name': "ios_charts-Swift.h",
-          'external-contents': "/Users/markmoussa/HackathonProjects/Rhabit/DerivedData/Rhabit/Build/Products/Debug-iphonesimulator/ios_charts.framework/Headers/ios_charts-Swift.h"
-        }
-      ]
-    },
-    {
-      'type': 'directory',
-      'name': "/Users/markmoussa/HackathonProjects/Rhabit/DerivedData/Rhabit/Build/Products/Debug-iphonesimulator/ios_charts.framework/Modules",
-      'contents': [
-        {
-          'type': 'file',
-          'name': "module.modulemap",
-          'external-contents': "/Users/markmoussa/HackathonProjects/Rhabit/DerivedData/Rhabit/Build/Intermediates/Pods.build/Debug-iphonesimulator/ios-charts.build/module.modulemap"
         }
       ]
     }

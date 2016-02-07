@@ -1,0 +1,68 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ICandleChartDataSet"
+provides-nominal:
+- "P6Charts19ICandleChartDataSet"
+provides-member:
+- ["P6Charts19ICandleChartDataSet", ""]
+provides-dynamic-lookup:
+- "isDecreasingFilled"
+- "isIncreasingFilled"
+- "shadowColor"
+- "isShadowColorSameAsCandle"
+- "decreasingColor"
+- "decreasingFilled"
+- "bodySpace"
+- "shadowColorSameAsCandle"
+- "shadowWidth"
+- "increasingFilled"
+- "increasingColor"
+depends-top-level:
+- "ILineScatterCandleRadarChartDataSet"
+- "UIColor"
+- "Bool"
+- "ICandleChartDataSet"
+- "CGFloat"
+depends-member:
+- ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "Bool"]
+- ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "CGFloat"]
+- ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "UIColor"]
+- ["P6Charts19ICandleChartDataSet", "Bool"]
+- ["P6Charts19ICandleChartDataSet", "CGFloat"]
+- ["P6Charts19ICandleChartDataSet", "UIColor"]
+- ["P6Charts19ICandleChartDataSet", "bodySpace"]
+- ["P6Charts19ICandleChartDataSet", "decreasingColor"]
+- ["P6Charts19ICandleChartDataSet", "decreasingFilled"]
+- ["P6Charts19ICandleChartDataSet", "increasingColor"]
+- ["P6Charts19ICandleChartDataSet", "increasingFilled"]
+- ["P6Charts19ICandleChartDataSet", "isDecreasingFilled"]
+- ["P6Charts19ICandleChartDataSet", "isIncreasingFilled"]
+- ["P6Charts19ICandleChartDataSet", "isShadowColorSameAsCandle"]
+- ["P6Charts19ICandleChartDataSet", "shadowColor"]
+- ["P6Charts19ICandleChartDataSet", "shadowColorSameAsCandle"]
+- ["P6Charts19ICandleChartDataSet", "shadowWidth"]
+- ["P6Charts13IChartDataSet", "Bool"]
+- ["P6Charts13IChartDataSet", "CGFloat"]
+- ["P6Charts13IChartDataSet", "UIColor"]
+- ["P6Charts35ILineScatterCandleRadarChartDataSet", "Bool"]
+- ["P6Charts35ILineScatterCandleRadarChartDataSet", "CGFloat"]
+- ["P6Charts35ILineScatterCandleRadarChartDataSet", "UIColor"]
+- ["P6Charts35ILineScatterCandleRadarChartDataSet", ""]
+depends-nominal:
+- "P6Charts39IBarLineScatterCandleBubbleChartDataSet"
+- "P6Charts19ICandleChartDataSet"
+- "P6Charts13IChartDataSet"
+- "P6Charts35ILineScatterCandleRadarChartDataSet"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/markmoussa/HackathonProjects/Rhabit/Pods/Target Support Files/Charts/Charts-umbrella.h"
+- "/Users/markmoussa/HackathonProjects/Rhabit/DerivedData/Rhabit/Build/Intermediates/Pods.build/Debug-iphonesimulator/Charts.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "48770c23f8b47cb63e162524d519678d"

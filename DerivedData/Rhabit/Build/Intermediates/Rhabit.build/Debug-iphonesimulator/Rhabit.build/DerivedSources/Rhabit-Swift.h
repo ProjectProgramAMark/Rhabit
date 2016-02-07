@@ -110,6 +110,15 @@ SWIFT_CLASS("_TtC6Rhabit11AppDelegate")
 @class NSBundle;
 @class NSCoder;
 
+SWIFT_CLASS("_TtC6Rhabit19ChartViewController")
+@interface ChartViewController : UIViewController
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC6Rhabit19FirstViewController")
 @interface FirstViewController : UIViewController
 - (void)viewDidLoad;
@@ -118,29 +127,28 @@ SWIFT_CLASS("_TtC6Rhabit19FirstViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class Firebase;
-@class UISegmentedControl;
 @class UITextField;
-@class UIButton;
 
-SWIFT_CLASS("_TtC6Rhabit19LoginViewController")
-@interface LoginViewController : UIViewController
-@property (nonatomic, weak) IBOutlet UITextField * __null_unspecified usernameField;
-@property (nonatomic, weak) IBOutlet UITextField * __null_unspecified passwordField;
-@property (nonatomic, weak) IBOutlet UISegmentedControl * __null_unspecified loginButton;
-@property (nonatomic, weak) IBOutlet UISegmentedControl * __null_unspecified registerButton;
-@property (nonatomic, weak) IBOutlet UIButton * __null_unspecified submitButton;
-@property (nonatomic, strong) Firebase * __null_unspecified myRootRef;
-- (IBAction)submit:(UISegmentedControl * __nonnull)sender;
+SWIFT_CLASS("_TtC6Rhabit20SecondViewController")
+@interface SecondViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UITextField * __null_unspecified UsernameField;
+@property (nonatomic, weak) IBOutlet UITextField * __null_unspecified PasswordField;
+@property (nonatomic, copy) NSString * __null_unspecified toUsername;
+@property (nonatomic, copy) NSString * __null_unspecified toPassword;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIStoryboardSegue;
 
-SWIFT_CLASS("_TtC6Rhabit20SecondViewController")
-@interface SecondViewController : UIViewController
+SWIFT_CLASS("_TtC6Rhabit19loginViewController")
+@interface loginViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UITextField * __null_unspecified usernameField;
+@property (nonatomic, weak) IBOutlet UITextField * __null_unspecified passwordField;
+- (IBAction)loginButton:(id __nonnull)sender;
+- (void)prepareForSegue:(UIStoryboardSegue * __nonnull)segue sender:(id __null_unspecified)sender;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;

@@ -1,0 +1,34 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ChartFillFormatter"
+provides-nominal:
+- "P6Charts18ChartFillFormatter"
+provides-member:
+- ["P6Charts18ChartFillFormatter", ""]
+provides-dynamic-lookup:
+- "getFillLinePosition"
+depends-top-level:
+- "ILineChartDataSet"
+- "LineChartDataProvider"
+- "ChartFillFormatter"
+- "CGFloat"
+depends-member:
+- ["P6Charts18ChartFillFormatter", "CGFloat"]
+- ["P6Charts18ChartFillFormatter", "ILineChartDataSet"]
+- ["P6Charts18ChartFillFormatter", "LineChartDataProvider"]
+- ["P6Charts18ChartFillFormatter", "getFillLinePosition"]
+depends-nominal:
+- "P6Charts18ChartFillFormatter"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/markmoussa/HackathonProjects/Rhabit/Pods/Target Support Files/Charts/Charts-umbrella.h"
+- "/Users/markmoussa/HackathonProjects/Rhabit/DerivedData/Rhabit/Build/Intermediates/Pods.build/Debug-iphonesimulator/Charts.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "60439e1d532c6da1a8835a1aff94f63b"

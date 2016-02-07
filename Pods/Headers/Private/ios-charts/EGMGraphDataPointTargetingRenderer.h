@@ -1,1 +1,0 @@
-../../../ios-charts/Pod/Classes/renderer/model/EGMGraphDataPointTargetingRenderer.h

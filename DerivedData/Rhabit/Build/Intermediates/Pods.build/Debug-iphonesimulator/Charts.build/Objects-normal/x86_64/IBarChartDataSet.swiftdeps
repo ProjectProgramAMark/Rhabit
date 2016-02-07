@@ -1,0 +1,62 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "IBarChartDataSet"
+provides-nominal:
+- "P6Charts16IBarChartDataSet"
+provides-member:
+- ["P6Charts16IBarChartDataSet", ""]
+provides-dynamic-lookup:
+- "barSpace"
+- "highlightAlpha"
+- "barShadowColor"
+- "stackLabels"
+- "stackSize"
+- "isStacked"
+depends-top-level:
+- "Int"
+- "IBarChartDataSet"
+- "IBarLineScatterCandleBubbleChartDataSet"
+- "String"
+- "UIColor"
+- "CGFloat"
+- "Bool"
+depends-member:
+- ["P6Charts16IBarChartDataSet", "Bool"]
+- ["P6Charts16IBarChartDataSet", "CGFloat"]
+- ["P6Charts16IBarChartDataSet", "Int"]
+- ["P6Charts16IBarChartDataSet", "String"]
+- ["P6Charts16IBarChartDataSet", "UIColor"]
+- ["P6Charts16IBarChartDataSet", "barShadowColor"]
+- ["P6Charts16IBarChartDataSet", "barSpace"]
+- ["P6Charts16IBarChartDataSet", "highlightAlpha"]
+- ["P6Charts16IBarChartDataSet", "isStacked"]
+- ["P6Charts16IBarChartDataSet", "stackLabels"]
+- ["P6Charts16IBarChartDataSet", "stackSize"]
+- ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "Bool"]
+- ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "CGFloat"]
+- ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "Int"]
+- ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "String"]
+- ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "UIColor"]
+- ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", ""]
+- ["P6Charts13IChartDataSet", "Bool"]
+- ["P6Charts13IChartDataSet", "CGFloat"]
+- ["P6Charts13IChartDataSet", "Int"]
+- ["P6Charts13IChartDataSet", "String"]
+- ["P6Charts13IChartDataSet", "UIColor"]
+depends-nominal:
+- "P6Charts16IBarChartDataSet"
+- "P6Charts39IBarLineScatterCandleBubbleChartDataSet"
+- "P6Charts13IChartDataSet"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/markmoussa/HackathonProjects/Rhabit/Pods/Target Support Files/Charts/Charts-umbrella.h"
+- "/Users/markmoussa/HackathonProjects/Rhabit/DerivedData/Rhabit/Build/Intermediates/Pods.build/Debug-iphonesimulator/Charts.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "3a2bfcd5655e329569ef78088e51dec5"

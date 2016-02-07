@@ -84,10 +84,8 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "Pods-RhabitUITests/Firebase.framework"
-  install_framework "Pods-RhabitUITests/ios_charts.framework"
+  install_framework "Pods-RhabitUITests/Charts.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "Pods-RhabitUITests/Firebase.framework"
-  install_framework "Pods-RhabitUITests/ios_charts.framework"
+  install_framework "Pods-RhabitUITests/Charts.framework"
 fi

@@ -1,13 +1,12 @@
 PODS:
-  - Firebase (2.5.0)
-  - ios-charts (0.0.1)
+  - Charts (2.2.1):
+    - Charts/Core (= 2.2.1)
+  - Charts/Core (2.2.1)
 
 DEPENDENCIES:
-  - Firebase (>= 2.5.0)
-  - ios-charts (~> 0.0)
+  - Charts
 
 SPEC CHECKSUMS:
-  Firebase: 744617c0733b45198f9486ebd5cac64ec2d10d79
-  ios-charts: 9fe9e64632a8480b940e1ac66e73dd18d5358a83
+  Charts: 3ff893c1a4416ab6abed7a6d26fa1c13372f3456
 
 COCOAPODS: 0.39.0

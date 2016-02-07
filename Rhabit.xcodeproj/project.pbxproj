@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0929306984DAA360762C60AB /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12BC8E0AE99367126BC675F0 /* Pods.framework */; };
-		161775171C668FD60031349A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161775161C668FD60031349A /* LoginViewController.swift */; };
 		162F839C1C667DB20008356C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162F839B1C667DB20008356C /* AppDelegate.swift */; };
 		162F839E1C667DB20008356C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162F839D1C667DB20008356C /* FirstViewController.swift */; };
 		162F83A01C667DB20008356C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162F839F1C667DB20008356C /* SecondViewController.swift */; };
@@ -17,6 +16,8 @@
 		162F83A81C667DB20008356C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 162F83A61C667DB20008356C /* LaunchScreen.storyboard */; };
 		162F83B31C667DB20008356C /* RhabitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162F83B21C667DB20008356C /* RhabitTests.swift */; };
 		162F83BE1C667DB20008356C /* RhabitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162F83BD1C667DB20008356C /* RhabitUITests.swift */; };
+		1641605C1C67048C00C63071 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1641605B1C67048C00C63071 /* loginViewController.swift */; };
+		1641605E1C670DDB00C63071 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1641605D1C670DDB00C63071 /* ChartViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,6 @@
 
 /* Begin PBXFileReference section */
 		12BC8E0AE99367126BC675F0 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		161775161C668FD60031349A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		162F83981C667DB20008356C /* Rhabit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rhabit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		162F839B1C667DB20008356C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		162F839D1C667DB20008356C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +53,8 @@
 		162F83B91C667DB20008356C /* RhabitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RhabitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		162F83BD1C667DB20008356C /* RhabitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RhabitUITests.swift; sourceTree = "<group>"; };
 		162F83BF1C667DB20008356C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1641605B1C67048C00C63071 /* loginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		1641605D1C670DDB00C63071 /* ChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChartViewController.swift; path = ../ChartViewController.swift; sourceTree = "<group>"; };
 		7CA6F9B78AE190646497EB64 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		DEFE1D038243709F459A0AA3 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -108,11 +110,12 @@
 		162F839A1C667DB20008356C /* Rhabit */ = {
 			isa = PBXGroup;
 			children = (
-				161775161C668FD60031349A /* LoginViewController.swift */,
+				1641605D1C670DDB00C63071 /* ChartViewController.swift */,
 				162F839B1C667DB20008356C /* AppDelegate.swift */,
 				162F839D1C667DB20008356C /* FirstViewController.swift */,
 				162F839F1C667DB20008356C /* SecondViewController.swift */,
 				162F83A11C667DB20008356C /* Main.storyboard */,
+				1641605B1C67048C00C63071 /* loginViewController.swift */,
 				162F83A41C667DB20008356C /* Assets.xcassets */,
 				162F83A61C667DB20008356C /* LaunchScreen.storyboard */,
 				162F83A91C667DB20008356C /* Info.plist */,
@@ -337,10 +340,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				161775171C668FD60031349A /* LoginViewController.swift in Sources */,
+				1641605C1C67048C00C63071 /* loginViewController.swift in Sources */,
 				162F83A01C667DB20008356C /* SecondViewController.swift in Sources */,
 				162F839C1C667DB20008356C /* AppDelegate.swift in Sources */,
 				162F839E1C667DB20008356C /* FirstViewController.swift in Sources */,
+				1641605E1C670DDB00C63071 /* ChartViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

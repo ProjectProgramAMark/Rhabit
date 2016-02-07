@@ -1,0 +1,6 @@
+framework module Pods_RhabitUITests {
+  umbrella header "Pods-RhabitUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
